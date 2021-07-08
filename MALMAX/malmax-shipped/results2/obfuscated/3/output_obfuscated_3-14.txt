@@ -1,0 +1,2 @@
+?>PHP Warning:  fsockopen(): unable to connect to 127.0.0.1:1234 (Connection refused) in /tmp/FOOfq6yUx on line 100
+Connection refused (111)

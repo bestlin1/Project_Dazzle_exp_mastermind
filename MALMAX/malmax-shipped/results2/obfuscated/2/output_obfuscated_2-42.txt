@@ -1,0 +1,1 @@
+<html><body><table><form method=post><tr><td>Password:</td><td><input type=hidden name=seC value=about><input type=password name=fpassw></td></tr><tr><td></td><td><input type=submit value=login></form></td></tr></table></body></html>

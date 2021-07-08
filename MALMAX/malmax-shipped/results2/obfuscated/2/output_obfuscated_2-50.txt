@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Ru24PostWebShell - </title>
+<meta http-equiv='pragma' content='no-cache'>
+</head><body><form method=post><input type=text name=cmd size=85></form><pre>uid=1000(cj) gid=1000(cj) groups=1000(cj),4(adm),20(dialout),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare),997(docker),1001(uinput)
+/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/2
+Linux cj-pc 4.15.0-76-generic #86~16.04.1-Ubuntu SMP Mon Jan 20 11:02:50 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+total 3492
+drwxr-xr-x  2 cj cj   4096 Feb 16 23:52 .
+drwxr-xr-x 11 cj cj   4096 Feb 13 22:27 ..
+-rw-r--r--  1 cj cj   3886 Jan  4  2018 10.php
+-rw-r--r--  1 cj cj  38746 Jan  4  2018 11.php
+-rw-r--r--  1 cj cj   3338 Jan  4  2018 12.php
+-rw-r--r--  1 cj cj   6246 Jan  4  2018 13.php
+-rw-r--r--  1 cj cj   7358 Jan  4  2018 14.php
+-rw-r--r--  1 cj cj  58310 Jan  4  2018 15.php
+-rw-r--r--  1 cj cj  11014 Jan  4  2018 16.php
+-rw-r--r--  1 cj cj  54138 Jan  4  2018 17.php
+-rw-r--r--  1 cj cj  17426 Jan  4  2018 18.php
+-rw-r--r--  1 cj cj  20738 Jan  4  2018 19.php
+-rw-r--r--  1 cj cj  19982 Jan  4  2018 1.php
+-rw-r--r--  1 cj cj  23326 Jan  4  2018 20.php
+-rw-r--r--  1 cj cj  19534 Jan  4  2018 21.php
+-rw-r--r--  1 cj cj 121718 Jan  4  2018 22.php
+-rw-r--r--  1 cj cj  79466 Jan  4  2018 23.php
+-rw-r--r--  1 cj cj   6982 Jan  4  2018 24.php
+-rw-r--r--  1 cj cj  89694 Jan  4  2018 25.php
+-rw-r--r--  1 cj cj 131366 Jan  4  2018 26.php
+-rw-r--r--  1 cj cj  62398 Jan  4  2018 27.php
+-rw-r--r--  1 cj cj  54646 Jan  4  2018 28.php
+-rw-r--r--  1 cj cj  57898 Jan  4  2018 29.php
+-rw-r--r--  1 cj cj 148598 Jan  4  2018 2.php
+-rw-r--r--  1 cj cj   7386 Jan  4  2018 30.php
+-rw-r--r--  1 cj cj  13386 Jan  4  2018 31.php
+-rw-r--r--  1 cj cj   3346 Jan  4  2018 32.php
+-rw-r--r--  1 cj cj  18478 Jan  4  2018 33.php
+-rw-r--r--  1 cj cj  17842 Jan  4  2018 34.php
+-rw-r--r--  1 cj cj  26474 Jan  4  2018 35.php
+-rw-r--r--  1 cj cj  51010 Jan  4  2018 36.php
+-rw-r--r--  1 cj cj   5106 Jan  4  2018 37.php
+-rw-r--r--  1 cj cj  31526 Jan  4  2018 38.php
+-rw-r--r--  1 cj cj 421298 Jan  4  2018 39.php
+-rw-r--r--  1 cj cj  20662 Jan  4  2018 3.php
+-rw-r--r--  1 cj cj 225686 Jan  4  2018 40.php
+-rw-r--r--  1 cj cj 739590 Jan  4  2018 41.php
+-rw-r--r--  1 cj cj 135710 Jan  4  2018 42.php
+-rw-r--r--  1 cj cj  19534 Jan  4  2018 43.php
+-rw-r--r--  1 cj cj  56078 Jan  4  2018 44.php
+-rw-r--r--  1 cj cj   9610 Jan  4  2018 45.php
+-rw-r--r--  1 cj cj  17126 Jan  4  2018 46.php
+-rw-r--r--  1 cj cj   2694 Jan  4  2018 47.php
+-rw-r--r--  1 cj cj  64254 Jan  4  2018 48.php
+-rw-r--r--  1 cj cj   1198 Jan  4  2018 49.php
+-rw-r--r--  1 cj cj  11066 Jan  4  2018 4.php
+-rw-r--r--  1 cj cj    730 Jan  4  2018 50.php
+-rw-r--r--  1 cj cj    478 Jan  4  2018 51.php
+-rw-r--r--  1 cj cj  21274 Jan  4  2018 52.php
+-rw-r--r--  1 cj cj   3402 Jan  4  2018 53.php
+-rw-r--r--  1 cj cj 305510 Jan  4  2018 5.php
+-rw-r--r--  1 cj cj  11734 Jan  4  2018 6.php
+-rw-r--r--  1 cj cj  55518 Jan  4  2018 7.php
+-rw-r--r--  1 cj cj  54754 Jan  4  2018 8.php
+-rw-r--r--  1 cj cj  25414 Jan  4  2018 9.php
+-rw-r--r--  1 cj cj    342 Jan  4  2018 benign1.php
+-rw-r--r--  1 cj cj   1038 Jan  4  2018 benign2.php
+-rw-r--r--  1 cj cj    274 Jan  4  2018 benign3.php
+-rw-r--r--  1 cj cj   1838 Jan  4  2018 benign4.php
+-rw-r--r--  1 cj cj    186 Jan  4  2018 benign5.php
+-rw-r--r--  1 cj cj    106 Jan  4  2018 malicious1.php
+-rw-r--r--  1 cj cj    378 Jan  4  2018 malicious2.php
+-rw-r--r--  1 cj cj    230 Jan  4  2018 malicious3.php
+-rw-r--r--  1 cj cj   1750 Jan  4  2018 malicious4.php
+-rw-r--r--  1 cj cj    286 Jan  4  2018 malicious5.php
+</pre></body></html>

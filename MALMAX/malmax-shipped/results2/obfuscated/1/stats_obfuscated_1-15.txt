@@ -1,0 +1,76 @@
+Request: samples/obfuscated/1/15.php
+
+===== Options =====
+Array
+(
+    [f] => samples/obfuscated/1/15.php
+)
+/home/cj/MALMAX/malmax-shipped/malmax-shipped
+
+===== General Statistics =====
+Execution time: 0.03
+Array
+(
+    [parsed] => Array
+        (
+            [files] => Array
+                (
+                    [all] => 1
+                    [unique] => 1
+                )
+
+        )
+
+    [statements] => Array
+        (
+            [visited] => Array
+                (
+                    [sum] => 198
+                    [unique] => 138
+                )
+
+            [executed] => Array
+                (
+                    [sum] => 197
+                    [unique] => 137
+                )
+
+        )
+
+    [if] => Array
+        (
+            [count] => 42
+            [branches] => 114
+            [elses] => 20
+            [elseifs] => 52
+            [single] => 10
+        )
+
+    [error] => Array
+        (
+            [handled] => Array
+                (
+                    [all] => 4
+                    [Warning] => 4
+                    [mainbranch] => Array
+                        (
+                            [all] => 4
+                            [Warning] => 4
+                        )
+
+                )
+
+        )
+
+)
+
+===== Included Files =====
+Array
+(
+    [/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/1/15.php] => 1
+)
+
+===== Constants =====
+Array
+(
+)

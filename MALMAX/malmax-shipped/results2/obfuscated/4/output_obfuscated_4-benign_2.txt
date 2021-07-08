@@ -1,0 +1,215 @@
+?><!DOCTYPE html>
+<html lang="en-US" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="profile" href="https://gmpg.org/xfn/11">
+		<link rel="pingback" href="http://abiusx.com/blog/xmlrpc.php">
+				<!--[if lt IE 9]>
+		<script src="http://abiusx.com/blog/wp-content/themes/writing/js/html5.js"></script>
+		<![endif]-->
+		<script type="ff7ddd262d0d2f9d08c1ba7b-text/javascript">(function(){document.documentElement.className='js'})();</script>
+
+						<meta property="og:type" content="website" />
+							<meta property="og:image" content="https://abiusx.com/blog/wp-content/uploads/banner.jpg" />
+							<meta property="og:description" content="official website of Abbas Naderi Afooshteh (AbiusX)" />
+			<title>Page not found &#8211; AbiusX</title>
+<link rel='dns-prefetch' href='//platform.twitter.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="AbiusX &raquo; Feed" href="https://abiusx.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="AbiusX &raquo; Comments Feed" href="https://abiusx.com/comments/feed/" />
+		<script type="ff7ddd262d0d2f9d08c1ba7b-text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/abiusx.com\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=87fa54ecd3311265113ff710b664fb04"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://abiusx.com/blog/wp-includes/css/dist/block-library/style.min.css?ver=87fa54ecd3311265113ff710b664fb04' type='text/css' media='all' />
+<link rel='stylesheet' id='ssp-frontend-player-css'  href='http://abiusx.com/blog/wp-content/plugins/seriously-simple-podcasting/assets/css/player.css?ver=1.20.10' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-syntax-css-css'  href='http://abiusx.com/blog/wp-content/plugins/wp-syntax/css/wp-syntax.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='asalah-lora-css' href="https://fonts.googleapis.com/css?family=Lora%3A400%2C700&#038;subset=latin%2Clatin-ext&#038;ver=87fa54ecd3311265113ff710b664fb04" type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://abiusx.com/blog/wp-content/themes/writing/genericons/genericons.css?ver=3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='http://abiusx.com/blog/wp-content/themes/writing/framework/bootstrap/css/bootstrap.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='http://abiusx.com/blog/wp-content/themes/writing/framework/font-awesome/css/font-awesome.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='asalah-plugins-css'  href='http://abiusx.com/blog/wp-content/themes/writing/pluginstyle.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='asalah-style-css'  href='http://abiusx.com/blog/wp-content/themes/writing/style.css?ver=3.650' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='asalah-ie-css'  href='http://abiusx.com/blog/wp-content/themes/writing/css/ie.css?ver=87fa54ecd3311265113ff710b664fb04' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='instag-slider-css'  href='http://abiusx.com/blog/wp-content/themes/writing/inc/widgets/assets/css/instag-slider.css?ver=1.4.3' type='text/css' media='all' />
+<script type="ff7ddd262d0d2f9d08c1ba7b-text/javascript" src='http://abiusx.com/blog/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type="ff7ddd262d0d2f9d08c1ba7b-text/javascript" src='http://abiusx.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type="ff7ddd262d0d2f9d08c1ba7b-text/javascript" src='http://abiusx.com/blog/wp-content/themes/writing/js/modernizr.js?ver=1'></script>
+<link rel='https://api.w.org/' href='https://abiusx.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://abiusx.com/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://abiusx.com/blog/wp-includes/wlwmanifest.xml" /> 
+
+<script type="ff7ddd262d0d2f9d08c1ba7b-text/javascript">$=jQuery.noConflict();</script>
+<link rel="alternate" type="application/rss+xml" title="Podcast RSS feed" href="https://abiusx.com/feed/podcast" />
+
+<!-- Analytics by WP-Statistics v12.6.11 - https://wp-statistics.com/ -->
+<style type="text/css" id="asalah_custom_style_code">@media screen and (min-width: 950px) {.container { width:950px; }}@media screen and (min-width: 1121px) {.wp-block-image.alignwide {margin-left: -85px !important;margin-right: -85px !important;}}@media screen and (max-width: 1120px) {.wp-block-image.alignwide {margin-left: -45px !important;margin-right: -45px !important;}}@media screen and (max-width: 1050px) {.wp-block-image.alignwide {margin-left: -25px !important;margin-right: -25px !important;}}@media screen and (max-width: 1010px) {.wp-block-image.alignwide {margin-left: 0px !important;margin-right: 0px !important;}}@media screen and (max-width: 950px) {.wp-block-image.alignwide {margin-left: -45px !important;margin-right: -45px !important;}}@media screen and (max-width: 868px) {.wp-block-image.alignwide {margin-left: -25px !important;margin-right: -25px !important;}}@media screen and (max-width: 818px) {.wp-block-image.alignwide {margin-left: -15px !important;margin-right: -15px !important;}}@media screen and (max-width: 798px) {.wp-block-image.alignwide {margin-left: 0px !important;margin-right: 0px !important;}}.logo_dot, .top_header_items_holder .logo_dot {display: none;}</style><meta name="twitter:partner" content="tfwp">
+
+		<style type="text/css" id="wp-custom-css">
+			.blog_post_control_item a, .blog_post_control_item .share_item.share_sign {
+	
+	border: 1px dotted #ccc;
+}		</style>
+			</head>
+		<body class="error404">
+
+				<div id="page" class="hfeed site">
+
+			<!-- start site main container -->
+			<div class="site_main_container">
+				<!-- header -->
+					<header class="site_header">
+
+						<!-- top menu area -->
+								<div class="top_menu_wrapper">
+			<div class="container">
+				<div class="site_logo_mobile_topbar">		<div class="logo_wrapper">
+			<style>.site_logo_image { height : 50px;}</style>				<a class="asalah_logo default_logo  no_retina_logo" title="AbiusX" href="https://abiusx.com/" rel="home">
+					<img  src="https://abiusx.com/blog/wp-content/uploads/banner.jpg" class="site_logo img-responsive site_logo_image pull-left clearfix" alt="AbiusX" />
+				</a>
+									<!-- Site name for screen-reader-text -->
+					<h1 class="screen-reader-text site_logo site-title pull-left clearfix">AbiusX</h1>
+							</div> <!-- logo_wrapper -->
+				<div class="header_info_wrapper">
+			<a id="user_info_icon" class="user_info_avatar user_info_button user_info_avatar_icon skin_color_hover" href="#">
+				<i class="fa fa-align-center"></i>			</a>
+		</div>
+	</div><div class="mobile_menu_button">
+											<span class="mobile_menu_text">Menu</span>
+											<div class="writing_mobile_icon"><span></span><span></span><span></span></div>
+				</div><!-- end mobile_menu_button -->
+
+				<div class="top_header_items_holder">
+							<div class="logo_wrapper">
+			<style>.site_logo_image { height : 50px;}</style>				<a class="asalah_logo default_logo  no_retina_logo" title="AbiusX" href="https://abiusx.com/" rel="home">
+					<img  src="https://abiusx.com/blog/wp-content/uploads/banner.jpg" class="site_logo img-responsive site_logo_image pull-left clearfix" alt="AbiusX" />
+				</a>
+									<!-- Site name for screen-reader-text -->
+					<h1 class="screen-reader-text site_logo site-title pull-left clearfix">AbiusX</h1>
+							</div> <!-- logo_wrapper -->
+								<div class="main_menu pull-left">
+							<div class="main_nav"><ul id="menu-abiusx-com" class="nav navbar-nav"><li id="menu-item-673" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-673 default_menu"><a href="/"><i class=" AbiusX.com"></i>Home</a></li>
+<li id="menu-item-646" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-646 default_menu"><a href="/code/"><i class=" Codes &#038; Projects"></i>Code</a></li>
+<li id="menu-item-647" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-647 default_menu"><a href="/cv"><i class=" Abbas Naderi Resume/CV"></i>Résumé / CV</a></li>
+</ul></div>						</div>
+											<div class="header_icons pull-right text_right">
+
+							<!-- start header social icons --> <div class="social_icons_list header_social_icons pull-left"><a rel="nofollow" target="_blank" href="https://facebook.com/abiusx" title="Facebook" class="social_icon social_facebook social_icon_facebook"><i class="fa fa-facebook"></i></a><a rel="nofollow" target="_blank" href="https://twitter.com/abiusx" title="Twitter" class="social_icon social_twitter social_icon_twitter"><i class="fa fa-twitter"></i></a><a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/abiusx/" title="Linked In" class="social_icon social_linkedin social_icon_linkedin"><i class="fa fa-linkedin"></i></a><a rel="nofollow" target="_blank" href="https://instagram.com/abiusx/" title="Instagram" class="social_icon social_instagram social_icon_instagram"><i class="fa fa-instagram"></i></a><a rel="nofollow" target="_blank" href="https://github.com/abiusx/" title="Github" class="social_icon social_github social_icon_github"><i class="fa fa-github"></i></a><a rel="nofollow" target="_blank" href="https://www.quora.com/profile/Abbas-Nderi" title="Quora" class="social_icon social_quora social_icon_quora"><i class="fa fa-quora"></i></a><a rel="nofollow" target="_blank" href="https://telegram.me/abiusx" title="Telegram" class="social_icon social_telegram social_icon_telegram"><i class="fa fa-telegram"></i></a><a rel="nofollow" target="_blank" href="/cdn-cgi/l/email-protection#e4c2c7ddd3dfc2c7dddcdf8dc2c7d5d5d3dfc2c7d5d5d1dfc2c7d5d6d4dfca878bc2c7d5d4dddfc2c7d2d0dfc2c7ddd3df868d91979cca878bc2c7d5d4dddf" title="E-Mail" class="social_icon social_envelope social_icon_envelope"><i class="fa fa-envelope"></i></a></div> <!-- end header social icons --> 		<div class="header_info_wrapper">
+			<a id="user_info_icon" class="user_info_avatar user_info_button user_info_avatar_icon skin_color_hover" href="#">
+				<i class="fa fa-align-center"></i>			</a>
+		</div>
+									<!-- start search box -->
+								<div class="header_search pull-right">
+									<form class="search clearfix animated searchHelperFade" method="get" id="searchform" action="https://abiusx.com/">
+	<input class="col-md-12 search_text" id="appendedInputButton" placeholder="Hit enter to search" type="text" name="s">
+	<input type="hidden" name="post_type" value="post" />
+	<i class="fa fa-search"><input type="submit" class="search_submit" id="searchsubmit" value="" /></i>
+</form>
+								</div>
+								<!-- end search box -->
+													</div>
+									</div> <!-- end .top_header_items_holder -->
+			</div> <!-- end container -->
+		</div>
+							</header><!-- header -->
+
+				<!-- start stie content -->
+				<section id="content" class="site_content">
+					<div class="container">
+						<div class="row"><main class="main_content 404_page col-md-12">
+	<header class="page-header page_header_404 page_404_main_title clearfix">
+		<h1 class="page-title page_title_404 title">404</h1>
+	</header><!-- .page-header -->
+
+	<div class="content_wrapper_404">
+		<p>It looks like nothing was found at this location. Maybe try a search?</p>
+		<form role="search" class="search-form" method="get" action="https://abiusx.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search ..." value="" name="s" title="Search for:">
+	</label>
+	<i class="search_submit_icon fa fa-search"><input type="submit" class="search-submit" value=""></i>
+</form>	</div><!-- end content_wrapper_404 -->
+</main><!-- .main_content -->
+
+
+						</div> <!-- .row -->
+					</div> <!-- .container -->
+				</section> <!-- #content .site_content -->
+								<footer class="site-footer">
+
+					<!-- screen-reader-text for site footer section -->
+					<h3 class="screen-reader-text">Site Footer</h3>
+
+					<div class="footer_wrapper">
+						<div class="container">
+
+							
+															<div class="second_footer no_first_footer row">
+									<div class="col-md-12">
+										<div class="second_footer_content_wrapper footer_credits">
+											Copyright © AbiusX.com 2006-2019. All rights reserved.										</div><!-- end second_footer_content_wrapper -->
+									</div><!-- end col-md-12 -->
+								</div><!-- end second_footer -->
+													</div><!-- end footer .container -->
+					</div><!-- end footer_wrapper -->
+				</footer><!-- .site-footer -->
+			</div><!-- .site_main_container -->
+
+			<!-- start site side container -->
+							<!-- Body overlay when slide sidebar is open -->
+				<div class="sliding_close_helper_overlay"></div>
+				<div class="site_side_container ">
+					<!-- screen-reader-text for sliding sidebar section -->
+					<h3 class="screen-reader-text">Sliding Sidebar</h3>
+					<!-- Start slide sidebar wrapper .info_sidebar -->
+					<div class="info_sidebar">
+						<div id="twitter-timeline-profile-2" class="widget_container widget_content widget widget_twitter-timeline-profile clearfix"><div class="twitter-timeline-profile"><a class="twitter-timeline" data-lang="en" data-tweet-limit="5" href="https://twitter.com/AbiusX?ref_src=twsrc%5Etfw">Tweets by AbiusX</a></div></div>											</div><!-- end .info_sidebar -->
+
+				</div> <!-- end site side container .site_side_container -->
+					</div><!-- #page .site -->
+
+				<style type="text/css">
+			.ssp-wave wave wave {
+				background: #28c0e1 !important;
+			}
+		</style>
+		    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="ff7ddd262d0d2f9d08c1ba7b-text/javascript">
+      </script>
+  <script type="ff7ddd262d0d2f9d08c1ba7b-text/javascript" src='http://abiusx.com/blog/wp-content/plugins/wp-syntax/js/wp-syntax.js?ver=1.1'></script>
+<script type="ff7ddd262d0d2f9d08c1ba7b-text/javascript" src='http://abiusx.com/blog/wp-content/themes/writing/framework/bootstrap/js/bootstrap.min.js?ver=2'></script>
+<script type="ff7ddd262d0d2f9d08c1ba7b-text/javascript" src='http://abiusx.com/blog/wp-content/themes/writing/js/asalah.js?ver=3.650'></script>
+<script type="ff7ddd262d0d2f9d08c1ba7b-text/javascript">
+/* <![CDATA[ */
+var writing_core_vars = {"ajax_load":"http:\/\/abiusx.com\/blog\/wp-content\/themes\/writing\/ajax-load.php","query_vars":"{\"page\":\"\",\"name\":\"ip.txt\"}"};
+/* ]]> */
+</script>
+<script type="ff7ddd262d0d2f9d08c1ba7b-text/javascript" src='http://abiusx.com/blog/wp-content/themes/writing/js/ajaxpagination.js?ver=3.650'></script>
+<script type="ff7ddd262d0d2f9d08c1ba7b-text/javascript">
+/* <![CDATA[ */
+window.twttr=(function(w){t=w.twttr||{};t._e=[];t.ready=function(f){t._e.push(f);};return t;}(window));
+/* ]]> */
+</script>
+<script type="ff7ddd262d0d2f9d08c1ba7b-text/javascript" id="twitter-wjs" async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script type="ff7ddd262d0d2f9d08c1ba7b-text/javascript" src='http://abiusx.com/blog/wp-includes/js/wp-embed.min.js?ver=87fa54ecd3311265113ff710b664fb04'></script>
+	<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="ff7ddd262d0d2f9d08c1ba7b-|49" defer=""></script></body>
+</html>

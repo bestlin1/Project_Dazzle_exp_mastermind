@@ -1,0 +1,57 @@
+Request: samples/synthetic/malicious1.php
+
+===== Options =====
+Array
+(
+    [f] => samples/synthetic/malicious1.php
+)
+/home/cj/MALMAX/malmax-shipped/malmax-shipped
+
+===== General Statistics =====
+Execution time: 0.01
+Array
+(
+    [parsed] => Array
+        (
+            [files] => Array
+                (
+                    [all] => 1
+                    [unique] => 1
+                )
+
+        )
+
+    [statements] => Array
+        (
+            [visited] => Array
+                (
+                    [sum] => 3
+                    [unique] => 3
+                )
+
+            [executed] => Array
+                (
+                    [sum] => 3
+                    [unique] => 3
+                )
+
+        )
+
+    [error] => Array
+        (
+            [all] => 1
+            [mainbranch] => 1
+        )
+
+)
+
+===== Included Files =====
+Array
+(
+    [/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/synthetic/malicious1.php] => 1
+)
+
+===== Constants =====
+Array
+(
+)

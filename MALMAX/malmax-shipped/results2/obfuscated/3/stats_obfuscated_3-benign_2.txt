@@ -1,0 +1,66 @@
+Request: samples/obfuscated/3/benign2.php
+
+===== Options =====
+Array
+(
+    [f] => samples/obfuscated/3/benign2.php
+)
+/home/cj/MALMAX/malmax-shipped/malmax-shipped
+
+===== General Statistics =====
+Execution time: 0.10
+Array
+(
+    [parsed] => Array
+        (
+            [files] => Array
+                (
+                    [all] => 2
+                    [unique] => 2
+                )
+
+        )
+
+    [node] => Array
+        (
+            [include] => 1
+        )
+
+    [statements] => Array
+        (
+            [visited] => Array
+                (
+                    [sum] => 16
+                    [unique] => 16
+                )
+
+            [executed] => Array
+                (
+                    [sum] => 16
+                    [unique] => 16
+                    [include] => 1
+                )
+
+            [parsed] => 8
+        )
+
+    [if] => Array
+        (
+            [count] => 1
+            [branches] => 1
+            [single] => 1
+        )
+
+)
+
+===== Included Files =====
+Array
+(
+    [/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3/benign2.php] => 1
+    [/tmp/FOO7owe4D] => 1
+)
+
+===== Constants =====
+Array
+(
+)

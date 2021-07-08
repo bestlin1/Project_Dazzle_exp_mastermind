@@ -1,0 +1,1 @@
+PHP Warning:  file_get_contents(/home/btvu/domains/btvu.ir/public_html/templates/.2720e79035880f748/.c4e19b3be1b628a4b11671efc5fa5ac5122a059b): failed to open stream: No such file or directory in /home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/2/38.php on line 1

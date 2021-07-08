@@ -1,0 +1,5 @@
+PHP Fatal error: Uncaught Error: Syntax error, unexpected '}' on line 351 in /tmp/FOOACwHL0:1
+Stack trace:
+#0 include(/tmp/FOOACwHL0) called at [/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/4/20.php:5]
+#1 {main}
+  thrown in /tmp/FOOACwHL0 on line 1

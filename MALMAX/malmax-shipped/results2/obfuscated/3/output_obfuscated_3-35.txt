@@ -1,0 +1,562 @@
+?> <html>
+    <head>
+        <title>lostDC - /home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3</title>
+        <style type="text/css">
+        body {
+            color: #FFFFFF;
+            background-color: black;
+            font-family: Courier New, Verdana, Arial;
+            font-size: 11px;
+            cursor: crosshair;
+        }
+        a:link {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        a:visited {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        a:hover {
+            cursor: crosshair;
+             text-decoration: none;
+            color: #808080;
+        }
+        a.head {
+            text-decoration: none;
+            text-color: #FF0000;
+        }
+        a.head:hover {
+            cursor: crosshair;
+            text-decoration: none;
+            color: #FF0000;
+        }
+        table {
+            font-size: 11px;
+        }
+        td.list {
+            border: 1px solid white;
+            font-size: 11px;
+        }
+        td.list:hover {
+            background: #222;
+        }
+        #info {
+            font-size:            12px;
+            width:                50%;
+            margin-left:        20%;
+            text-align: left;
+        }
+        #foot {
+            font-size:            12px;
+            width:                65%;
+            margin-left:        20%;
+            text-align: left;
+        }
+        input:hover, textarea:hover {
+            background: #808080;
+            cursor: crosshair;
+        }
+        #perm {
+            color: #FF0000;
+        }
+
+    </style>
+    </head>
+    <body><center><a href = "main.php"><img src = "http://img367.imageshack.us/img367/9834/bannerdc2bygu.png" border = "none"></a></center><hr size="1" width="60%" noshade />
+<div id = "info">[~]Directory corrente: /home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3<br />[~]Versione PHP: 7.0.3 <br />[~]Server: <br />[~]Indirizzo IP: <br />[~]Software: <br />[~]Charset: <br />[~]Safe Mode: <font color="#00FF33">OFF</font><br />[~]Magic Quotes: <font color="#00FF33">OFF</font><br />[~]Free space: 2.48 GB/223.05 GB<br /></div>
+<hr size="1" width="60%" noshade /><table width = 60% height = 10% align = "center">
+<tr>
+<td>[ <a class = "head" href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=create'>New</a> ]</td>
+<td>[ <a class = "head" href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=phpinfo'>PHP Info</a> ]</td>
+<td>[ <a class = "head" href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=nopaste&action=ins'>No-Paste</a> ]</td>
+<td>[ <a class = "head" href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=execute'>Shell Command</a> ]</td>
+<td>[ <a class = "head" href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=hasher'>Hasher</a> ]</td>
+<td>[ <a class = "head" href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=selfremove'>Self Remove</a> ]</td>
+</tr></table><center><table style = "border: 1px solid black;" width="60%">
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3/..>..</a></td>
+<tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=1.php>1.php</a></td>
+<td width = "10%" class = "list">19.58 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=1.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=1.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=1.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=10.php>10.php</a></td>
+<td width = "10%" class = "list">3.86 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=10.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=10.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=10.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=11.php>11.php</a></td>
+<td width = "10%" class = "list">37.9 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=11.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=11.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=11.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=12.php>12.php</a></td>
+<td width = "10%" class = "list">3.33 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=12.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=12.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=12.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=13.php>13.php</a></td>
+<td width = "10%" class = "list">6.17 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=13.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=13.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=13.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=14.php>14.php</a></td>
+<td width = "10%" class = "list">7.25 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=14.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=14.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=14.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=15.php>15.php</a></td>
+<td width = "10%" class = "list">57.01 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=15.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=15.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=15.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=16.php>16.php</a></td>
+<td width = "10%" class = "list">10.82 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=16.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=16.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=16.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=17.php>17.php</a></td>
+<td width = "10%" class = "list">52.94 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=17.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=17.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=17.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=18.php>18.php</a></td>
+<td width = "10%" class = "list">17.08 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=18.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=18.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=18.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=19.php>19.php</a></td>
+<td width = "10%" class = "list">20.32 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=19.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=19.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=19.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=2.php>2.php</a></td>
+<td width = "10%" class = "list">145.18 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=2.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=2.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=2.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=20.php>20.php</a></td>
+<td width = "10%" class = "list">22.85 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=20.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=20.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=20.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=21.php>21.php</a></td>
+<td width = "10%" class = "list">19.14 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=21.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=21.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=21.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=22.php>22.php</a></td>
+<td width = "10%" class = "list">118.93 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=22.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=22.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=22.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=23.php>23.php</a></td>
+<td width = "10%" class = "list">77.67 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=23.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=23.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=23.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=24.php>24.php</a></td>
+<td width = "10%" class = "list">6.88 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=24.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=24.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=24.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=25.php>25.php</a></td>
+<td width = "10%" class = "list">87.66 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=25.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=25.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=25.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=26.php>26.php</a></td>
+<td width = "10%" class = "list">128.35 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=26.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=26.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=26.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=27.php>27.php</a></td>
+<td width = "10%" class = "list">61 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=27.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=27.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=27.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=28.php>28.php</a></td>
+<td width = "10%" class = "list">53.43 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=28.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=28.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=28.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=29.php>29.php</a></td>
+<td width = "10%" class = "list">56.61 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=29.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=29.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=29.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=3.php>3.php</a></td>
+<td width = "10%" class = "list">20.24 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=3.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=3.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=3.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=30.php>30.php</a></td>
+<td width = "10%" class = "list">7.28 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=30.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=30.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=30.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=31.php>31.php</a></td>
+<td width = "10%" class = "list">13.14 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=31.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=31.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=31.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=32.php>32.php</a></td>
+<td width = "10%" class = "list">3.33 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=32.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=32.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=32.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=33.php>33.php</a></td>
+<td width = "10%" class = "list">18.11 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=33.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=33.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=33.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=34.php>34.php</a></td>
+<td width = "10%" class = "list">17.49 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=34.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=34.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=34.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=35.php>35.php</a></td>
+<td width = "10%" class = "list">25.92 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=35.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=35.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=35.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=36.php>36.php</a></td>
+<td width = "10%" class = "list">49.88 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=36.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=36.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=36.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=37.php>37.php</a></td>
+<td width = "10%" class = "list">5.05 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=37.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=37.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=37.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=38.php>38.php</a></td>
+<td width = "10%" class = "list">30.85 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=38.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=38.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=38.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=39.php>39.php</a></td>
+<td width = "10%" class = "list">411.49 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=39.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=39.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=39.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=4.php>4.php</a></td>
+<td width = "10%" class = "list">10.87 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=4.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=4.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=4.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=40.php>40.php</a></td>
+<td width = "10%" class = "list">220.46 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=40.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=40.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=40.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=41.php>41.php</a></td>
+<td width = "10%" class = "list">722.32 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=41.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=41.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=41.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=42.php>42.php</a></td>
+<td width = "10%" class = "list">132.6 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=42.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=42.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=42.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=43.php>43.php</a></td>
+<td width = "10%" class = "list">19.14 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=43.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=43.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=43.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=44.php>44.php</a></td>
+<td width = "10%" class = "list">54.83 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=44.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=44.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=44.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=45.php>45.php</a></td>
+<td width = "10%" class = "list">9.45 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=45.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=45.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=45.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=46.php>46.php</a></td>
+<td width = "10%" class = "list">16.79 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=46.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=46.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=46.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=47.php>47.php</a></td>
+<td width = "10%" class = "list">2.7 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=47.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=47.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=47.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=48.php>48.php</a></td>
+<td width = "10%" class = "list">62.81 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=48.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=48.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=48.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=49.php>49.php</a></td>
+<td width = "10%" class = "list">1.24 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=49.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=49.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=49.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=5.php>5.php</a></td>
+<td width = "10%" class = "list">298.42 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=5.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=5.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=5.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=50.php>50.php</a></td>
+<td width = "10%" class = "list">798 B</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=50.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=50.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=50.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=51.php>51.php</a></td>
+<td width = "10%" class = "list">546 B</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=51.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=51.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=51.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=52.php>52.php</a></td>
+<td width = "10%" class = "list">20.84 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=52.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=52.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=52.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=53.php>53.php</a></td>
+<td width = "10%" class = "list">3.39 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=53.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=53.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=53.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=6.php>6.php</a></td>
+<td width = "10%" class = "list">11.53 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=6.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=6.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=6.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=7.php>7.php</a></td>
+<td width = "10%" class = "list">54.28 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=7.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=7.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=7.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=8.php>8.php</a></td>
+<td width = "10%" class = "list">53.54 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=8.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=8.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=8.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=9.php>9.php</a></td>
+<td width = "10%" class = "list">24.88 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=9.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=9.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=9.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=benign1.php>benign1.php</a></td>
+<td width = "10%" class = "list">410 B</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=benign1.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=benign1.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=benign1.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=benign2.php>benign2.php</a></td>
+<td width = "10%" class = "list">1.08 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=benign2.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=benign2.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=benign2.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=benign3.php>benign3.php</a></td>
+<td width = "10%" class = "list">342 B</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=benign3.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=benign3.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=benign3.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=benign4.php>benign4.php</a></td>
+<td width = "10%" class = "list">1.86 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=benign4.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=benign4.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=benign4.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=benign5.php>benign5.php</a></td>
+<td width = "10%" class = "list">254 B</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=benign5.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=benign5.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=benign5.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=malicious1.php>malicious1.php</a></td>
+<td width = "10%" class = "list">174 B</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=malicious1.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=malicious1.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=malicious1.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=malicious2.php>malicious2.php</a></td>
+<td width = "10%" class = "list">446 B</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=malicious2.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=malicious2.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=malicious2.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=malicious3.php>malicious3.php</a></td>
+<td width = "10%" class = "list">298 B</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=malicious3.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=malicious3.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=malicious3.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=malicious4.php>malicious4.php</a></td>
+<td width = "10%" class = "list">1.78 KB</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=malicious4.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=malicious4.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=malicious4.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr><tr>
+<td width = "55%" class = "list"><a href = ?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=download&filename=malicious5.php>malicious5.php</a></td>
+<td width = "10%" class = "list">354 B</td><td class = "list"><div id = "perm">0644</div></td>
+<td class = "list" align = "right"><a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=edit&file=malicious5.php'><img src = 'http://img189.imageshack.us/img189/9858/editj.gif' alt = "edita file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=remove&file=malicious5.php'><img src = 'http://img193.imageshack.us/img193/9589/deletef.gif' alt = "elimina file" border = "none"></a>
+                <a href = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=rename&old=malicious5.php'><img src = 'http://img51.imageshack.us/img51/7241/replyl.gif' alt = "rinomina file" border = "none"></a>
+                </td>
+</tr></table>
+</center>
+<hr size="1" width="60%" noshade />
+</hr><table id = "foot">
+           <tr>
+               <td width = "40%">
+                   <form action = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=upload' method = 'POST' ENCTYPE='multipart/form-data'>
+                           Upload file: <input type = 'file' name = 'file'>
+                           <input type = 'submit' value = 'Upload'>
+                   </form>
+               </td>
+               <td width = "50%">
+                       <form method="POST" action="?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=chmod">
+                           Chmod File: <input type="text" name="tomod" value = "filename"> 
+                           <input type="number" name="mod" value = "0666"> 
+                           <input type="submit" name="submit" value="Chmod">
+                       </form>
+               </td>
+           </tr>
+           <tr>
+                   <td width = "40%">
+                       <form method="POST" action="?dir='.?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3.'&mode=makedir">
+                           Mkdir: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="dir" value="namedir"> 
+                           <input type="submit" name="submit" value="Create">
+                    </form>
+                   </td>
+                   <td width = "50%">
+                       <form action = '?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3&mode=create' method = 'POST'>
+                        New file:&nbsp;&nbsp; <input name = 'new'>
+                        <input type = 'submit' value = 'Create'></form>
+                   </td>
+           </tr>
+           <tr>
+            <td>
+                <form method = "POST" action = "?dir='.?dir=/home/cj/MALMAX/malmax-shipped/malmax-shipped/samples/obfuscated/3.'&mode=godir">
+                    Go dir:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name = 'goto'>
+                    <input type = 'submit' value = 'Go'>
+                </form>
+            </td>
+           </tr>
+       </table><hr size="1" width="60%" noshade />
+</hr><center>[ Generation time: 0.0161 seconds | by <a href="http://lostpassword.hellospace.net">lostpassword</a> and <a href = "http://www.d3vilc0de.org">D3vilc0de crew</a> ]</center>
+</body>
+</html> 

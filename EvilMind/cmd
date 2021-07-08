@@ -1,0 +1,64 @@
+
+
+###############
+# 1. php mal finder
+###############
+https://securityonline.info/php-malware-finder/
+$ ./phpmalwarefinder -v ../../wildsample/Misc-Malwares/PHP/23db571e4067.jpg.php 
+
+
+
+
+###############
+# 2. linux mal det
+###############
+https://www.tecmint.com/install-linux-malware-detect-lmd-in-rhel-centos-and-fedora/2/
+$ sudo maldet --scan-all ~/Mastermind/wildsample/Misc-Malwares/PHP/23db571e4067.jpg.php
+
+###############
+# 3. shellray
+###############
+https://shellray.com/
+
+
+
+
+###############
+# 4. virustotal
+###############
+https://www.virustotal.com/gui/file/2e12c977b3fe76dd30df2a33078769b2a9970dab19d3c31bb5027d51d385c21a/detection
+
+CLI: https://github.com/VirusTotal/vt-cli
+./vt scan file ../samples/input_selected_samples/1_ajaxshell.php 
+./vt analysis ZDc2MzQ2OTRkYjQ5Y2MwNGJkZDE3MjQ4M2ZiNWJhYWM6MTU4Mzk1MDcxNw== --include=**.result
+./vt analysis MTU0ODY4ZmU2YmUzNGIyMzc1ODU5NTNiMzg3MjI4ODU6MTU4Mzk1MzM5Mg== --include=**.malicious
+
+
+
+###############
+# 1. php obfuscator 
+###############
+https://github.com/naneau/php-obfuscator
+
+$ ./bin/obfuscate obfuscate /input/directory /output/directory
+
+
+
+###############
+# 2. YAK Pro
+###############
+https://github.com/pk-fr/yakpro-po
+
+$ yakpro-po input_selected_samples/hello.php -o o_hello.php
+
+
+###############
+# 3. Best PHP Obfuscator
+###############
+http://www.pipsomania.com/best_php_obfuscator.do
+
+
+###############
+# 4. Simple online PHP obfuscator
+###############
+https://www.mobilefish.com/services/php_obfuscator/php_obfuscator.php

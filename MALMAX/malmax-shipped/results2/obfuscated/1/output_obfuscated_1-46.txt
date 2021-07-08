@@ -1,0 +1,54 @@
+?»?<head>
+<title> nShell v1.0</title>
+<style>
+html { overflow-x: auto }
+A: {font-weight:bold};
+A:link {COLOR:red; TEXT-DECORATION: none}
+A:visited { COLOR:red; TEXT-DECORATION: none}
+A:active {COLOR:red; TEXT-DECORATION: none}
+A:hover {color:blue;TEXT-DECORATION: none}
+submit {
+BORDER-RIGHT:  buttonhighlight 2px outset;
+BORDER-TOP:    buttonhighlight 2px outset;
+BORDER-LEFT:   buttonhighlight 2px outset;
+BORDER-BOTTOM: buttonhighlight 2px outset;
+BACKGROUND-COLOR: #e4e0d8;
+width: 30%;
+}
+textarea {
+BORDER-RIGHT:  #ffffff 1px solid;
+BORDER-TOP:    #999999 1px solid;
+BORDER-LEFT:   #999999 1px solid;
+BORDER-BOTTOM: #ffffff 1px solid;
+BACKGROUND-COLOR: #444444;
+font: Fixedsys bold;
+}
+BODY {
+margin-top: 1px;
+margin-right: 1px;
+margin-bottom: 1px;
+margin-left: 1px;
+}
+table {
+BORDER-RIGHT:  :#444444 1px outset;
+BORDER-TOP:    :#444444 1px outset;
+BORDER-LEFT:   :#444444 1px outset;
+BORDER-BOTTOM: :#444444 1px outset;
+BACKGROUND-COLOR: #D4D0C8;
+}
+td {
+BORDER-RIGHT:  #aaaaaa 1px solid;
+BORDER-TOP:    :#444444 1px solid;
+BORDER-LEFT:   :#444444 1px solid;
+BORDER-BOTTOM: #aaaaaa 1px solid;
+}
+div,td,table {
+font-family:Georgia;
+}
+</style>
+</head>
+<body bgcolor=":#444444">
+<center>
+<b><font color="#000000" size="3" face="Georgia"> System information: :</font><br><table width="80%" border="0">
+<td colspan="3" align="center">
+Safe_mode: <b><font color=red>OFF</font></b>    Php version<font color="green"> : 7.0.3 </font>    cURL: <b><font color=green>ON</font></b>    MYSQL: <b><font color=red>OFF</font></b>    MSSQL: <b><font color=red>OFF</font></b>    PostgreSQL: <b><font color=red>OFF</font></b>    Oracle: <b><font color=red>OFF</font></b><br>    Disable functions : <b><font color=green>NONE</font></b>    

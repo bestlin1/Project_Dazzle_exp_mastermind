@@ -1,0 +1,21 @@
+?><html>
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+</head>
+<title>Aria cPanel cracker version 1.0 - Edited By KingDefacer</title>
+<style>
+body{margin:0px;font-style:normal;font-size:10px;color:#FFFFFF;font-family:Verdana,Arial;background-color:#3a3a3a;scrollbar-face-color: #303030;scrollbar-highlight-color: #5d5d5d;scrollbar-shadow-color: #121212;scrollbar-3dlight-color: #3a3a3a;scrollbar-arrow-color: #9d9d9d;scrollbar-track-color: #3a3a3a;scrollbar-darkshadow-color: #3a3a3a;}
+input,
+.kbrtm,select{background:#303030;color:#FFFFFF;font-family:Verdana,Arial;font-size:10px;vertical-align:middle; height:18; border-left:1px solid #5d5d5d; border-right:1px solid #121212; border-bottom:1px solid #121212; border-top:1px solid #5d5d5d;}
+button{background-color: #666666; font-size: 8pt; color: #FFFFFF; font-family: Tahoma; border: 1 solid #666666;}
+body,td,th { font-family: verdana; color: #d9d9d9; font-size: 11px;}body { background-color: #000000;}
+a:active { outline: none; }
+a:focus { -moz-outline-style: none; }
+</style>
+  <style type='text/css'>
+  <!--
+       A:link {text-decoration: none; color:#cccccc }
+       A:visited {text-decoration: none; color:#cccccc }
+       a:hover {text-decoration: none; color:#000000}
+  -->
+</style>
